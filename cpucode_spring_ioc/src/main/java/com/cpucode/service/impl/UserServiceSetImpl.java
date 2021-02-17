@@ -17,6 +17,11 @@ public class UserServiceSetImpl implements UserService {
         System.out.println("UserServiceSetImpl 无参构造");
     }
 
+    public UserServiceSetImpl(UserDao userDao){
+        System.out.println("UserServiceSetImpl 有参构造");
+
+        this.userDao = userDao;
+    }
 
     public void setUserDao(UserDao userDao){
         System.out.println("UserServiceSetImpl 中的 setUserDao");
