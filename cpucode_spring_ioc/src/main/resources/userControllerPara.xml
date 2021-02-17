@@ -5,7 +5,7 @@
 
     <import resource="userDao.xml"></import>
 
-    <bean id="userServiceSetImpl" class="com.cpucode.service.impl.UserServiceSetImpl">
+    <bean id="userServiceSetImpl" class="cpucode.service.impl.UserServiceSetImpl">
         <constructor-arg name="userDao" ref="userDao"></constructor-arg>
     </bean>
 </beans>

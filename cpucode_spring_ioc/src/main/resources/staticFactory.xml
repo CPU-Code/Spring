@@ -6,6 +6,6 @@
     <!--
         工厂的静态方法返回Bean实例
     -->
-    <bean id="staticFactory" class="com.cpucode.factory.StaticFactory" factory-method="getUserDao"></bean>
+    <bean id="staticFactory" class="cpucode.factory.StaticFactory" factory-method="getUserDao"></bean>
 
 </beans>

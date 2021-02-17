@@ -16,5 +16,5 @@
 
     对象销毁：当对象长时间不用时，被 Java 的垃圾回收器回收了
      -->
-    <bean id="userDaoProto" class="com.cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
+    <bean id="userDaoProto" class="cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
 </beans>
