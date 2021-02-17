@@ -1,7 +1,6 @@
 package com.cpucode.web;
 
 import com.cpucode.service.UserService;
-import com.sun.tools.internal.xjc.reader.xmlschema.bindinfo.BIConversion;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

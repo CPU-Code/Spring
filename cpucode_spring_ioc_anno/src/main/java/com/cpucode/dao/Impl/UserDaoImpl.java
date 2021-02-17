@@ -2,6 +2,7 @@ package com.cpucode.dao.Impl;
 
 import com.cpucode.dao.UserDao;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author : cpucode
@@ -12,8 +13,9 @@ import org.springframework.stereotype.Component;
  */
 /**
  * <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl"></bean>
+ * @Component("userDao")
  */
-@Component("userDao")
+@Repository("userDao")
 public class UserDaoImpl implements UserDao {
     public void save() {
         System.out.println("UserDaoImpl 中 save 跑了");
