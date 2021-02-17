@@ -8,6 +8,7 @@
 - [x] [UserController__Spring的注入](src/test/java/com/cpucode/web/UserController.java)
 - [x] [UserControllerAnnotation__Spring注解开发](src/test/java/com/cpucode/web/UserControllerAnnotation.java)
 - [x] [UserControllerNew__新注解开发](src/test/java/com/cpucode/web/UserControllerNew.java)
+- [x] [SpringJunitTest__Junit测试](src/test/java/com/cpucode/test/SpringJunitTest.java)
 
 -----------------
 
