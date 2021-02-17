@@ -4,4 +4,8 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl"></bean>
+
+    <bean id="userDaoSingle" class="com.cpucode.dao.impl.UserDaoImpl" scope="singleton"></bean>
+
+    <bean id="userDaoProto" class="com.cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
 </beans>
