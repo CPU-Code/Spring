@@ -12,5 +12,6 @@ public interface UserDao {
      * 打印调用
      * */
     public void save();
-    public void printParameter();
+    public void printOrdinary();
+    public void printAggregate();
 }

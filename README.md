@@ -23,9 +23,8 @@ Spring个人学习代码
 - [x] [UserController__xml注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserController.java)
 - [x] [UserControllerSet__Set注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserControllerSet.java)
 - [x] [UserControllerSetP__Set的p注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserControllerSetP.java)
-- [x] [UserControllerSetP__Set的p注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserControllerSetP.java)
 - [x] [UserControllerPara__有参注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserControllerPara.java)
-- [x] [UserControllerPara__有参注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserController.java)
 - [x] [UserControllerOrdinary__普通参数注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserControllerOrdinary.java)
+- [x] [UserControllerAggregate__集合有参注入](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserControllerAggregate.java)
 
 - [返回文件目录](#文件目录)
