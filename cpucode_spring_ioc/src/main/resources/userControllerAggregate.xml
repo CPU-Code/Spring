@@ -3,6 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+    集合数据类型（List）的注入
+    集合数据类型（ Map<String,User> ）的注入
+    集合数据类型（Properties）的注入
+    -->
+
     <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl">
         <property name="strList" >
             <list>

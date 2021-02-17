@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/cpucode_spring_aop/cpucode_spring_aop.iml" filepath="$PROJECT_DIR$/cpucode_spring_aop/cpucode_spring_aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/cpucode_spring_ioc/cpucode_spring_ioc.iml" filepath="$PROJECT_DIR$/cpucode_spring_ioc/cpucode_spring_ioc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cpucode_spring_ioc_anno/cpucode_spring_ioc_anno.iml" filepath="$PROJECT_DIR$/cpucode_spring_ioc_anno/cpucode_spring_ioc_anno.iml" />
     </modules>
   </component>
 </project>

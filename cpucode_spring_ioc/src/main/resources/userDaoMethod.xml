@@ -3,5 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        init-method：指定类中的初始化方法名称
+
+        destroy-method：指定类中销毁方法名称
+    -->
     <bean id="userDaoMethod" class="com.cpucode.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean>
 </beans>

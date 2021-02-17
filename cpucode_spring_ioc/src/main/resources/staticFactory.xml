@@ -3,6 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        工厂的静态方法返回Bean实例
+    -->
     <bean id="staticFactory" class="com.cpucode.factory.StaticFactory" factory-method="getUserDao"></bean>
 
 </beans>

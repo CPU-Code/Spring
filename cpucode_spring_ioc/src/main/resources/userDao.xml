@@ -3,5 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        id：Bean实例在Spring容器中的唯一标识
+        class：Bean的全限定名称
+
+        使用无参构造方法实例化
+
+        它会根据默认无参构造方法来创建类对象，如果bean中没有默认无参构造函数，将会创建失败
+    -->
     <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl"></bean>
 </beans>

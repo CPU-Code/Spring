@@ -3,6 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        普通数据类型的注入
+    -->
     <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl">
         <property name="username" value="cpuCode" />
         <property name="age" value="20" />

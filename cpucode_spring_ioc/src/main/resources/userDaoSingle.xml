@@ -3,5 +3,21 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+    singleton	默认值，单例的
+
+    Bean的实例化个数：1个
+
+    Bean的实例化时机：当Spring核心文件被加载时，实例化配置的Bean实例
+
+    Bean的生命周期：
+
+    对象创建：当应用加载，创建容器时，对象就被创建了
+
+    对象运行：只要容器在，对象一直活着
+
+    对象销毁：当应用卸载，销毁容器时，对象就被销毁了
+
+    -->
     <bean id="userDaoSingle" class="com.cpucode.dao.impl.UserDaoImpl" scope="singleton"></bean>
 </beans>

@@ -4,6 +4,10 @@
        xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        P命名空间注入本质也是set方法注入，但比起上述的set方法注入更加方便
+    -->
+
     <import resource="userDao.xml"></import>
 
     <bean id="userServiceSetP" class="com.cpucode.service.impl.UserServiceSetImpl" p:userDao-ref="userDao"/>

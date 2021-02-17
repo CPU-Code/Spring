@@ -8,6 +8,8 @@
     <artifactId>cpucode_spring_ioc</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <!--导入spring的context坐标，context依赖core、beans、expression-->
+
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
