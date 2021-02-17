@@ -1,7 +1,7 @@
-package cpucode.service.Impl;
+package com.cpucode.service.Impl;
 
-import cpucode.dao.UserDao;
-import cpucode.service.UserService;
+import com.cpucode.dao.UserDao;
+import com.cpucode.service.UserService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;

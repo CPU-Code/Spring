@@ -1,4 +1,4 @@
-package cpucode.test.data.source;
+package com.cpucode.test.data.source;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidPooledConnection;

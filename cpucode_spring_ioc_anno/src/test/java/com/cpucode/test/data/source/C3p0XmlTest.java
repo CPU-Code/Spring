@@ -1,4 +1,4 @@
-package cpucode.test.data.source;
+package com.cpucode.test.data.source;
 
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

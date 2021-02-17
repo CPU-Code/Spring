@@ -1,4 +1,4 @@
-package cpucode.config;
+package com.cpucode.config;
 
 /**
  * @author : cpucode

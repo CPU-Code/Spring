@@ -1,4 +1,4 @@
-package cpucode.service;
+package com.cpucode.service;
 
 /**
  * @author : cpucode

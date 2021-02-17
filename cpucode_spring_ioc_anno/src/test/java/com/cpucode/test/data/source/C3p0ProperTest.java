@@ -1,4 +1,4 @@
-package cpucode.test.data.source;
+package com.cpucode.test.data.source;
 
 import com.mchange.v2.c3p0.ComboPooledDataSource;
 import org.junit.Test;

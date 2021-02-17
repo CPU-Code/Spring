@@ -1,7 +1,7 @@
-package cpucode.web;
+package com.cpucode.web;
 
-import cpucode.config.SpringConfiguration;
-import cpucode.service.UserService;
+import com.cpucode.config.SpringConfiguration;
+import com.cpucode.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

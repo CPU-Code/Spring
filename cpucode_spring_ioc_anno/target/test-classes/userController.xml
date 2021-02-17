@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDao" class="cpucode.dao.Impl.UserDaoImpl"></bean>
+    <bean id="userDao" class="com.cpucode.dao.Impl."></bean>
 
-    <bean id="userService" class="cpucode.service.Impl.UserServiceImpl">
+    <bean id="userService" class="com.cpucode.service.Impl.UserServiceImpl">
         <property name="userDao" ref="userDao"></property>
     </bean>
 

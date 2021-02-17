@@ -1,6 +1,6 @@
-package cpucode.dao.Impl;
+package com.cpucode.dao.Impl;
 
-import cpucode.dao.UserDao;
+import com.cpucode.dao.UserDao;
 import org.springframework.stereotype.Repository;
 
 /**

@@ -1,4 +1,4 @@
-package cpucode.dao;
+package com.cpucode.dao;
 
 /**
  * @author : cpucode

@@ -1,6 +1,6 @@
-package cpucode.web;
+package com.cpucode.web;
 
-import cpucode.service.UserService;
+import com.cpucode.service.UserService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
