@@ -22,7 +22,7 @@ public class C3p0Test {
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
 
         dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
-        dataSource.setJdbcUrl("jdbc:mysql:///cpucode?serverTimezone=UTC");
+        dataSource.setJdbcUrl("jdbc:mysql:///test?serverTimezone=UTC");
         dataSource.setUser("root");
         dataSource.setPassword("12345");
 

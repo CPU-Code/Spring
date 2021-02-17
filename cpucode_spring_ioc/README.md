@@ -1,7 +1,7 @@
 
 # [反转控制](../README.md)
 
-- [x] [UserDaoDemo__第一个Spring](cpucode_spring_ioc/src/main/java/com/cpucode/demo/UserDaoDemo.java)
+- [x] [UserDaoDemo__第一个Spring](src/main/java/com/cpucode/demo/UserDaoDemo.java)
 - [x] [SpringTest__Spring单例模式](src/test/java/com/cpucode/test/SpringTest.java)
 - [x] [SpringProtoTest__Spring多例模式](src/test/java/com/cpucode/test/SpringProtoTest.java)
 - [x] [SpringMethodTest__初始销毁方法](src/test/java/com/cpucode/test/SpringMethodTest.java)
