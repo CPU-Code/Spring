@@ -8,5 +8,8 @@ package com.cpucode.service;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public interface UserService {
+    /**
+     * 打印
+     * */
     public void save();
 }
