@@ -17,13 +17,16 @@ public class DruidTest {
      * */
     @Test
     public void test2() throws Exception {
+        //创建数据源
         DruidDataSource dataSource = new DruidDataSource();
 
+        //设置数据库连接参数
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/test?serverTimezone=UTC");
         dataSource.setUsername("root");
         dataSource.setPassword("12345");
 
+        //获得连接对象
         DruidPooledConnection connection = dataSource.getConnection();
 
         System.out.println(connection);

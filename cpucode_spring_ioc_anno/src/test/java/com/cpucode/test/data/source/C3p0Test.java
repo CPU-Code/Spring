@@ -18,13 +18,16 @@ public class C3p0Test {
      */
     @Test
     public void test1() throws Exception {
+        //创建数据源
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
 
+        //设置数据库连接参数
         dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
         dataSource.setJdbcUrl("jdbc:mysql:///test?serverTimezone=UTC");
         dataSource.setUser("root");
         dataSource.setPassword("12345");
 
+        //获得连接对象
         Connection connection = dataSource.getConnection();
 
         System.out.println(connection);
