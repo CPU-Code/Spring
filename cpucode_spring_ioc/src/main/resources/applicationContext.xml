@@ -10,4 +10,7 @@
     <bean id="userDaoProto" class="com.cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
 
     <bean id="userDaoMethod" class="com.cpucode.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean>
+
+    <bean id="staticFactory" class="com.cpucode.factory.StaticFactory" factory-method="getUserDao"></bean>
+
 </beans>
