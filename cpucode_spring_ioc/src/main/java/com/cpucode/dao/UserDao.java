@@ -8,5 +8,8 @@ package com.cpucode.dao;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public interface UserDao {
+    /**
+     * 打印调用
+     * */
     public void save();
 }
