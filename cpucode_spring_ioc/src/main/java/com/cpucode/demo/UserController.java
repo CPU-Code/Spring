@@ -1,22 +1,25 @@
 package com.cpucode.demo;
 
-import com.cpucode.dao.UserDao;
+import com.cpucode.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 /**
  * @author : cpucode
  * @date : 2021/2/17
- * @time : 11:41
+ * @time : 13:32
  * @github : https://githfub.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class UserDaoDemo {
+public class UserController {
     public static void main(String[] args) {
-        ApplicationContext app = new ClassPathXmlApplicationContext("userDao.xml");
+        ApplicationContext app = new ClassPathXmlApplicationContext("userService.xml");
 
-        UserDao userDao = (UserDao) app.getBean("userDao");
+        System.out.println();
 
-        userDao.save();
+        UserService userService = (UserService)app.getBean("userService");
+
+        userService.save();
     }
 }

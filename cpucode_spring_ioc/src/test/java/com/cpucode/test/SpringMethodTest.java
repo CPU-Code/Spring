@@ -15,7 +15,7 @@ public class SpringMethodTest {
 
     @Test
     public void test1(){
-        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("userDaoMethod.xml");
 
         UserDao userDao = (UserDao) app.getBean("userDaoMethod");
 

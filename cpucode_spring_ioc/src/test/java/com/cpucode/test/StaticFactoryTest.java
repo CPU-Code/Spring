@@ -14,7 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class StaticFactoryTest {
     @Test
     public void test1(){
-        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("dynamicFactory.xml");
 
         UserDao userDao = (UserDao) app.getBean("staticFactory");
 

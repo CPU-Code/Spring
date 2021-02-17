@@ -14,7 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class SpringProtoTest {
     @Test
     public void test1(){
-        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("userDaoProto.xml");
 
         //创建一个bean
         UserDao userDao = (UserDao)app.getBean("userDaoProto");

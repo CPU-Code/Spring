@@ -19,7 +19,7 @@ public class SpringTest {
      * */
     @Test
     public void test1(){
-        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("userDaoSingle.xml");
 
         //上面执行完毕就会创建bean
 
