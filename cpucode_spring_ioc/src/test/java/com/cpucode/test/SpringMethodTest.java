@@ -7,27 +7,20 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @author : cpucode
  * @date : 2021/2/17
- * @time : 12:04
+ * @time : 12:27
  * @github : https://githfub.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class SpringProtoTest {
+public class SpringMethodTest {
+
     @Test
     public void test1(){
         ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        //创建一个bean
-        UserDao userDao = (UserDao)app.getBean("userDaoProto");
-
-        //创建另一个bean
-        UserDao userDao2 = (UserDao)app.getBean("userDaoProto");
+        UserDao userDao = (UserDao) app.getBean("userDaoMethod");
 
         System.out.println(userDao);
-        System.out.println(userDao2);
+
+        app.close();
     }
 }
-
-/**
- * com.cpucode.dao.impl.UserDaoImpl@2d8f65a4
- * com.cpucode.dao.impl.UserDaoImpl@1b68ddbd
- * */

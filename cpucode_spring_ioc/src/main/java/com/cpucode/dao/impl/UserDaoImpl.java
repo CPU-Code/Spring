@@ -10,6 +10,19 @@ import com.cpucode.dao.UserDao;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class UserDaoImpl implements UserDao {
+
+    public UserDaoImpl(){
+        System.out.println("UserDaoImpl 无参构造");
+    }
+
+    public void init(){
+        System.out.println("UserDaoImpl 初始化");
+    }
+
+    public void destory(){
+        System.out.println("UserDaoImpl 销毁");
+    }
+
     public void save(){
         System.out.println("cpuCode 来了");
     }

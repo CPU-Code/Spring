@@ -21,6 +21,8 @@ public class SpringTest {
     public void test1(){
         ClassPathXmlApplicationContext app = new ClassPathXmlApplicationContext("applicationContext.xml");
 
+        //上面执行完毕就会创建bean
+
         UserDao userDao = (UserDao) app.getBean("userDaoSingle");
         UserDao userDao2 = (UserDao) app.getBean("userDaoSingle");
 

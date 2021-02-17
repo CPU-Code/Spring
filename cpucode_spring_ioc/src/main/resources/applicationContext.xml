@@ -8,4 +8,6 @@
     <bean id="userDaoSingle" class="com.cpucode.dao.impl.UserDaoImpl" scope="singleton"></bean>
 
     <bean id="userDaoProto" class="com.cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
+
+    <bean id="userDaoMethod" class="com.cpucode.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean>
 </beans>
