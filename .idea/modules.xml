@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cpucode_spring_aop/cpucode_spring_aop.iml" filepath="$PROJECT_DIR$/cpucode_spring_aop/cpucode_spring_aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cpucode_spring_ioc/cpucode_spring_ioc.iml" filepath="$PROJECT_DIR$/cpucode_spring_ioc/cpucode_spring_ioc.iml" />
     </modules>
   </component>
 </project>
