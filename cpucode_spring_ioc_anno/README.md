@@ -1,7 +1,8 @@
 
 # [注解开发](../README.md)
 
-- [x] [UserDaoDemo__第一个Spring](/src/main/java/com/cpucode/demo/UserDaoDemo.java)
+- [x] [C3p0Test__c3p0测试](/src/test/java/com/cpucode/test/data/source/C3p0Test.java)
+- [x] [DruidTest__Druid测试](/src/test/java/com/cpucode/test/data/source/DruidTest.java)
 
 -----------------
 

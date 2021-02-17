@@ -11,10 +11,5 @@
         <module name="cpucode_spring_aop" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cpucode_spring_aop" target="1.5" />
-      <module name="cpucode_spring_ioc" target="1.5" />
-      <module name="cpucode_spring_ioc_anno" target="1.5" />
-    </bytecodeTargetLevel>
   </component>
 </project>
