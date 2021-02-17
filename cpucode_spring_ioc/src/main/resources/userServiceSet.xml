@@ -5,7 +5,7 @@
 
     <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl"></bean>
 
-    <bean id="userServiceSet2" class="com.cpucode.service.impl.UserServiceSetImpl">
+    <bean id="userServiceSet" class="com.cpucode.service.impl.UserServiceSetImpl">
         <property name="userDao" ref="userDao"></property>
     </bean>
 </beans>

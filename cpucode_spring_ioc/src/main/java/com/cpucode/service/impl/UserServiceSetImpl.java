@@ -1,6 +1,7 @@
 package com.cpucode.service.impl;
 
 import com.cpucode.dao.UserDao;
+import com.cpucode.service.UserService;
 
 /**
  * @author : cpucode
@@ -9,7 +10,7 @@ import com.cpucode.dao.UserDao;
  * @github : https://githfub.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class UserServiceSetImpl {
+public class UserServiceSetImpl implements UserService {
     private UserDao userDao;
 
     public UserServiceSetImpl() {
