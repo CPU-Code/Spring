@@ -13,4 +13,7 @@
 
     <bean id="staticFactory" class="com.cpucode.factory.StaticFactory" factory-method="getUserDao"></bean>
 
+    <bean id="factory" class="com.cpucode.factory.DynamicFactory"> </bean>
+    <bean id="dynamicFactory" factory-bean="factory" factory-method="getUserDao" />
+
 </beans>
