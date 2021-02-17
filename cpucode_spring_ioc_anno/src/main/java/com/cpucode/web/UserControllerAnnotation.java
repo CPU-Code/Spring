@@ -17,5 +17,7 @@ public class UserControllerAnnotation {
         UserService userService = (UserService) app.getBean("userService");
 
         userService.save();
+
+        app.close();
     }
 }
