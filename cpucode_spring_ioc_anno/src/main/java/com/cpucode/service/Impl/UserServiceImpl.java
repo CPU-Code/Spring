@@ -62,6 +62,7 @@ public class UserServiceImpl implements UserService {
     public void save(){
         System.out.println("UserServiceImpl 中 save 跑起来了");
 
+        System.out.println("driver = " + driver);
         userDao.save();
     }
 }
