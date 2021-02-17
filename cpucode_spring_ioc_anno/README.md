@@ -7,6 +7,7 @@
 - [x] [C3p0XmlTest__c3p0以Spring测试](src/test/java/com/cpucode/test/data/source/C3p0XmlTest.java)
 - [x] [UserController__Spring的注入](src/main/java/com/cpucode/web/UserController.java)
 - [x] [UserControllerAnnotation__Spring注解开发](src/main/java/com/cpucode/web/UserControllerAnnotation.java)
+- [ ] [UserControllerNew__新注解开发](src/main/java/com/cpucode/web/UserControllerNew.java)
 
 -----------------
 
