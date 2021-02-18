@@ -5,6 +5,7 @@
 - [x] [ProxyTest__cglib动态代理](src/main/java/com/cpucode/proxy/cglib/ProxyTest.java)
 - [x] [AopTest__切面入门](src/test/java/com/cpucode/test/AopTest.java)
 - [x] [AfterReturnTest__后置增强](src/test/java/com/cpucode/test/AfterReturnTest.java)
+- [x] [AfterReturnTest__环绕增强](src/test/java/com/cpucode/test/AfterReturnTest.java)
 
 -----------------
 
