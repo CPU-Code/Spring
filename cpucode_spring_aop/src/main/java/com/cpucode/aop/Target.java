@@ -8,9 +8,15 @@ package com.cpucode.aop;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public class Target implements TargetInterface {
+
     public void save(){
         System.out.println("save running ...");
 
-        //int i = 1/0;
+
+    }
+
+    public void exce(){
+        System.out.println("产生错误");
+        int i = 1/0;
     }
 }

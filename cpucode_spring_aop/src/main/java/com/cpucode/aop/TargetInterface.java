@@ -9,4 +9,6 @@ package com.cpucode.aop;
  */
 public interface TargetInterface {
     public void save();
+
+    public void exce();
 }
