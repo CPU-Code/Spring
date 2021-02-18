@@ -17,7 +17,9 @@
         <!--声明切面-->
         <aop:aspect ref="aspect">
             <!--切面：切点+通知-->
-            <aop:before method="before" pointcut="execution(public void com.cpucode.aop.Target.save())" />
+            <!--<aop:before method="before" pointcut="execution(public void com.cpucode.aop.Target.save())" />-->
+
+            <aop:before method="before" pointcut="execution( * com.cpucode.aop.*.*(..))" />
         </aop:aspect>
     </aop:config>
 </beans>
