@@ -23,5 +23,6 @@ public class AnnoTest {
     @Test
     public void tesg1(){
         target.save();
+        target.exce();
     }
 }

@@ -1,8 +1,7 @@
 package com.cpucode.anno;
 
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
@@ -27,16 +26,21 @@ public class MyAspect {
         System.out.println("前置增强");
     }
 
+    @AfterReturning("execution(* com.cpucode.anno.*.*(..))")
     public void afterReturning(){
         System.out.println("后置增强");
     }
 
     /**
      * 正在执行的连接点===切点
+     *
+     * @Around("execution(* com.cpucode.anno.*.*(..))")
+     *
      * @param pjp
      * @return
      * @throws Throwable
      */
+    @Around("pointcut()")
     public Object around(ProceedingJoinPoint pjp) throws Throwable{
         System.out.println("环绕前增强");
 
@@ -48,11 +52,21 @@ public class MyAspect {
         return procend;
     }
 
+    @AfterThrowing("execution(* com.cpucode.anno.*.*(..))")
     public void afterThrowing(){
         System.out.println("异常抛出增强");
     }
 
+    @After("execution(* com.itheima.anno.*.*(..))")
     public void after(){
         System.out.println("最终增强");
+    }
+
+    /**
+     * 定义切点表达式
+     * */
+    @Pointcut("execution(* com.cpucode.anno.*.*(..))")
+    public void pointcut(){
+        System.out.println("pointcut 运行");
     }
 }
