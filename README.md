@@ -8,6 +8,7 @@ Spring个人学习代码
 
 - [反转控制](cpucode_spring_ioc/README.md)
 - [注解开发](cpucode_spring_ioc_anno/README.md)
+- [切面开发](cpucode_spring_aop/README.md)
 
 -----------------------
 

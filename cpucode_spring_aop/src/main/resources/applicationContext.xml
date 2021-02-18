@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+            http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--切面对象-->
+    <bean id="aspect" class="com.cpucode.aop.MyAspect"></bean>
+
+    <!--目标对象-->
+    <bean id="target" class="com.cpucode.aop.Target"></bean>
+
+    <!--配置织入：告诉spring框架 哪些方法(切点)需要进行哪些增强(前置、后置...)-->
+    <aop:config>
+        <!--声明切面-->
+        <aop:aspect ref="aspect">
+            <!--切面：切点+通知-->
+            <aop:before method="before" pointcut="execution(public void com.cpucode.aop.Target.save())" />
+        </aop:aspect>
+    </aop:config>
+</beans>
