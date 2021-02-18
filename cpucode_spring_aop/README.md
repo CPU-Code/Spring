@@ -8,6 +8,7 @@
 - [x] [AfterReturnTest__环绕增强](src/test/java/com/cpucode/test/AfterReturnTest.java)
 - [x] [After__错误和最终最强](src/test/java/com/cpucode/test/After.java)
 - [x] [Extract__抽取](src/test/java/com/cpucode/test/Extract.java)
+- [x] [AnnoTest__注解开发](src/test/java/com/cpucode/test/AnnoTest.java)
 
 -----------------
 
