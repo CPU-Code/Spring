@@ -23,7 +23,7 @@ public class JdbcTemplateTest {
         //创建数据源对象
         ComboPooledDataSource dataSource = new ComboPooledDataSource();
 
-        dataSource.setDriverClass("com.mysql.jc.jdbc.Driver");
+        dataSource.setDriverClass("com.mysql.cj.jdbc.Driver");
         dataSource.setJdbcUrl("jdbc:mysql:///cpucode?serverTimezone=UTC");
         dataSource.setUser("root");
         dataSource.setPassword("12345");
@@ -32,7 +32,7 @@ public class JdbcTemplateTest {
 
         jdbcTemplate.setDataSource(dataSource);
 
-        int row = jdbcTemplate.update("insert into acount value (?,?)", "cpu", 2222);
+        int row = jdbcTemplate.update("insert into acount value (?,?)", "haha", 2222);
 
         System.out.println(row);
     }

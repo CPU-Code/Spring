@@ -2,6 +2,7 @@
 # [注解开发](../README.md)
 
 - [x] [JdbcTemplateTest__jdbc连接插入](src/test/java/com/cpucode/test/JdbcTemplateTest.java)
+- [x] [SpringJdbcTest__set注入Jdbc](src/test/java/com/cpucode/test/SpringJdbcTest.java)
 
 -----------------
 
