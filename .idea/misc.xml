@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/cpucode_spring_aop/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_ioc_anno/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_spring_tx/pom.xml" />
       </list>
     </option>
   </component>
