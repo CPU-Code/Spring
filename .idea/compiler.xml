@@ -10,9 +10,12 @@
         <module name="cpucode_spring_ioc_anno" />
         <module name="cpucode_spring_tx" />
         <module name="cpucode_spring_jdbc" />
+        <module name="cpucode_spring_tx_anno" />
         <module name="cpucode_spring_aop" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="8">
+      <module name="cpucode_spring_tx _anno" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
