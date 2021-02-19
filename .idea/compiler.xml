@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_ioc_anno" />
+        <module name="cpucode_spring_jdbc" />
         <module name="cpucode_spring_aop" />
       </profile>
     </annotationProcessing>
