@@ -30,8 +30,10 @@ public class JdbcTemplateTest {
 
         JdbcTemplate jdbcTemplate = new JdbcTemplate();
 
+        //设置数据源对象  知道数据库在哪
         jdbcTemplate.setDataSource(dataSource);
 
+        //执行操作
         int row = jdbcTemplate.update("insert into acount value (?,?)", "haha", 2222);
 
         System.out.println(row);
