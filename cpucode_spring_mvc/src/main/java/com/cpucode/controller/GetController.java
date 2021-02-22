@@ -127,4 +127,18 @@ public class GetController {
     /**
      * 获得请求头信息
      * */
+    @RequestMapping("/save9")
+    @ResponseBody
+    public void save9(@RequestHeader(value = "User-Agent" , required = false) String user_agent){
+        System.out.println(user_agent);
+    }
+
+    /**
+     * @CookieValue : 可以获得指定Cookie的值
+     * */
+    @RequestMapping("/save10")
+    @ResponseBody
+    public void save10(@CookieValue(value = "JSESSIONID") String jsessionID){
+        System.out.println(jsessionID);
+    }
 }
