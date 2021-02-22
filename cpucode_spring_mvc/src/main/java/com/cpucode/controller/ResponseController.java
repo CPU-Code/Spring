@@ -1,6 +1,9 @@
 package com.cpucode.controller;
 
 
+import com.cpucode.domain.User;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -33,7 +36,7 @@ public class ResponseController {
         return "{\"username\": \"cpuCode\", \"age\" : 22}";
     }
 
-/*    @RequestMapping("/save3")
+    @RequestMapping("/save3")
     @ResponseBody
     public String save3() throws JsonProcessingException {
         User user = new User();
@@ -45,5 +48,18 @@ public class ResponseController {
         String json = objectMapper.writeValueAsString(user);
 
         return json;
-    }*/
+    }
+
+    /**
+     * 期望SpringMVC自动将User转换成json格式的字符串
+     * */
+    @RequestMapping("/save4")
+    @ResponseBody
+    public User save4(){
+        User user = new User();
+        user.setUsername("cpu");
+        user.setAge(20);
+
+        return user;
+    }
 }
