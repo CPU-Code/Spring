@@ -6,7 +6,11 @@ import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -97,4 +101,30 @@ public class GetController {
         System.out.println(username);
     }
 
+    /**
+     * 自定义类型转换器
+     *
+     * http://localhost:8080/cpucode_spring_mvc_war_exploded/getController/save7?date=2020-5-10
+     * */
+    @RequestMapping("/save7")
+    @ResponseBody
+    public void save7(Date date){
+        System.out.println(date);
+    }
+
+    /**
+     * 获得Servlet相关API
+     * */
+    @RequestMapping("/save8")
+    @ResponseBody
+    public void save8(HttpServletRequest request, HttpServletResponse respone, HttpSession session){
+        System.out.println(request);
+        System.out.println(respone);
+        System.out.println(session);
+    }
+
+
+    /**
+     * 获得请求头信息
+     * */
 }
