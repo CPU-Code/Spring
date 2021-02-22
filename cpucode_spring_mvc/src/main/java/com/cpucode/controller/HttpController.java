@@ -2,8 +2,11 @@ package com.cpucode.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 /**
  * @author : cpucode
@@ -22,4 +25,10 @@ public class HttpController {
 
         return "success";
     }
+
+    @RequestMapping("/save1")
+    public void save1(HttpServletResponse response) throws IOException {
+        response.getWriter().println("dd");
+    }
+
 }
