@@ -3,9 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl"></bean>
+    <!--
+        配置Spring容器调用set方法进行注入
+    -->
 
-    <bean id="userServiceSet" class="com.cpucode.service.impl.UserServiceSetImpl">
+    <import resource="userDao.xml"></import>
+
+    <bean id="userServiceSet" class="cpucode.service.impl.UserServiceSetImpl">
         <property name="userDao" ref="userDao"></property>
     </bean>
 </beans>

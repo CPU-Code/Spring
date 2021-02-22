@@ -3,7 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!--
+        通过import标签进行加载
+    -->
     <import resource="userDao.xml"></import>
 
-    <bean id="userService" class="com.cpucode.service.impl.UserServiceImpl"></bean>
+    <bean id="userService" class="cpucode.service.impl.UserServiceImpl"></bean>
 </beans>

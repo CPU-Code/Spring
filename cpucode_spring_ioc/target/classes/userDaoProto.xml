@@ -3,5 +3,18 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDaoProto" class="com.cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
+    <!--
+    prototype	多例的
+
+     Bean的实例化个数：多个
+
+    Bean的实例化时机：当调用getBean()方法时实例化Bean
+
+    对象创建：当使用对象时，创建新的对象实例
+
+    对象运行：只要对象在使用中，就一直活着
+
+    对象销毁：当对象长时间不用时，被 Java 的垃圾回收器回收了
+     -->
+    <bean id="userDaoProto" class="cpucode.dao.impl.UserDaoImpl" scope="prototype"></bean>
 </beans>

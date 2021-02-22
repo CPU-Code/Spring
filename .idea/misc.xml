@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_springMVC" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -10,6 +14,7 @@
         <option value="$PROJECT_DIR$/cpucode_spring_jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_tx/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_tx_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_spring_mvc/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,7 +3,13 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl">
+    <!--
+    集合数据类型（List）的注入
+    集合数据类型（ Map<String,User> ）的注入
+    集合数据类型（Properties）的注入
+    -->
+
+    <bean id="userDao" class="cpucode.dao.impl.UserDaoImpl">
         <property name="strList" >
             <list>
                 <value>cpuList</value>
@@ -28,17 +34,17 @@
         </property>
     </bean>
 
-    <bean id="user" class="com.cpucode.domain.User">
+    <bean id="user" class="cpucode.domain.User">
         <property name="name" value="cpuCpu" />
         <property name="addr" value="qq_44226094" />
     </bean>
 
-    <bean id="user2" class="com.cpucode.domain.User">
+    <bean id="user2" class="cpucode.domain.User">
         <property name="name" value="haHa" />
         <property name="addr" value="CPU-Code" />
     </bean>
 
-    <bean id="serviceAggregate" class="com.cpucode.service.impl.UserServiceAggregateImpl">
+    <bean id="serviceAggregate" class="cpucode.service.impl.UserServiceAggregateImpl">
         <constructor-arg name="userDao" ref="userDao"></constructor-arg>
     </bean>
 </beans>

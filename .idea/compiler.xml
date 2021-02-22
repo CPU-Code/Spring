@@ -6,16 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_ioc_anno" />
-        <module name="cpucode_spring_tx" />
         <module name="cpucode_spring_jdbc" />
         <module name="cpucode_spring_tx_anno" />
         <module name="cpucode_spring_aop" />
+        <module name="cpucode_spring_ioc" />
+        <module name="cpucode_spring_tx" />
+        <module name="cpucode_spring_mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="cpucode_spring_tx _anno" target="1.5" />
+      <module name="cpucode_springMVC" target="1.8" />
+      <module name="cupcode_spring_mm" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
