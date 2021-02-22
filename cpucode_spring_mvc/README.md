@@ -8,6 +8,8 @@
 - [x] [ModelController__页面跳转](src/main/java/com/cpucode/controller/ModelController.java)
 - [x] [HttpController__回写数据](src/main/java/com/cpucode/controller/HttpController.java)
 - [x] [ResponseController__返回集合](src/main/java/com/cpucode/controller/ResponseController.java)
+- [x] [GetController__获得请求参数](src/main/java/com/cpucode/controller/GetController.java)
+- [x] [UploadController__文件上传](src/main/java/com/cpucode/controller/UploadController.java)
 
 -----------------
 
