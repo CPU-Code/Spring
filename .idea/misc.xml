@@ -4,6 +4,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc" />
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc_exception" />
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc_test" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_springMVC" />
   </component>
   <component name="MavenProjectsManager">
@@ -17,6 +19,8 @@
         <option value="$PROJECT_DIR$/cpucode_spring_tx_anno/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_mvc/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_spring_mvc_test/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_spring_mvc_exception/pom.xml" />
       </list>
     </option>
   </component>
