@@ -22,7 +22,17 @@ public class MyInterceptor implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("preHandle ... ");
 
-        return false;
+        String param = request.getParameter("param");
+
+        if ("yes".equals(param)){
+            return true;
+        }else {
+            request.getRequestDispatcher("/jsp/error.jsp");
+
+            //返回true代表放行  返回false代表不放行
+            return false;
+        }
+
     }
 
     /**
