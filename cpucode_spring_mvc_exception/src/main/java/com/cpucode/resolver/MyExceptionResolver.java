@@ -1,7 +1,6 @@
 package com.cpucode.resolver;
 
 import com.cpucode.exception.MyException;
-import com.sun.net.httpserver.HttpServer;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.ModelAndView;
 
