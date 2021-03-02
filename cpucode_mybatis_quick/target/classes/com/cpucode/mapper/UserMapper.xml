@@ -15,4 +15,9 @@
         insert into user values(#{id}, #{username}, #{password})
     </insert>
 
+    <!--修改数据操作-->
+    <update id="update" parameterType="com.cpucode.domain.User">
+        update user set username = #{username}, password = #{password} where id = #{id}
+    </update>
+
 </mapper>
