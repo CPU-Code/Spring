@@ -84,8 +84,8 @@ public class MyBatisTest {
         //获得session工厂对象
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(resourceAsStream);
 
-        //获得session回话对象
-        SqlSession sqlSession = sqlSessionFactory.openSession();
+        //获得session回话对象 参数为是否自动提交，如果设置为true,那么不需要手动提交事务
+        SqlSession sqlSession = sqlSessionFactory.openSession(true);
 
         //执行操作
         int row = sqlSession.insert("userMapper.add", user);
@@ -93,7 +93,7 @@ public class MyBatisTest {
         System.out.println(row);
 
         //mybatis执行更新操作  提交事务
-        sqlSession.commit();
+        //sqlSession.commit();
 
         //释放资源
         sqlSession.close();
