@@ -20,4 +20,9 @@
         update user set username = #{username}, password = #{password} where id = #{id}
     </update>
 
+    <!--删除数据操作-->
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from user where id = #{id}
+    </delete>
+
 </mapper>
