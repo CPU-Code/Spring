@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--映射文件DTD约束头-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--根标签-->
+<mapper namespace="userMapper">
+    <!--查找                     查询结果对应实体类型-->
+    <select id="finAll" resultType="com.cpucode.domain.User">
+        /* sql语句 */
+        select * from user;
+    </select>
+
+    <!--插入数据操作-->
+    <insert id="add" parameterType="com.cpucode.domain.User">
+        insert into user values(#{id}, #{username}, #{password})
+    </insert>
+
+</mapper>
