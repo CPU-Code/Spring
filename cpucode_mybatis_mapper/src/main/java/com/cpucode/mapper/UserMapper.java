@@ -13,6 +13,8 @@ import java.util.List;
  */
 public interface UserMapper {
 
+    public List<User> findAll(User user);
+
     public List<User> findByCondition(User user);
 
     public List<User> findById(List<Integer> ids);
