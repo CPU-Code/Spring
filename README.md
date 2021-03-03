@@ -17,7 +17,7 @@ Spring个人学习代码
 - [异常处理](cpucode_spring_mvc_exception/README.md)
 - [SM整合](cpucode_spring_mvc_test/README.md)
 - [mybatis入门](cpucode_mybatis_quick/README.md)
-- [mybatis的Dao实现](cpucode_mybatis_quick/README.md)
+- [mybatis的Dao实现](cpucode_mybatis_dao/README.md)
 
 -----------------------
 

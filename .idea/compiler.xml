@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cpucode_spring_interceptor" />
-        <module name="cpucode_spring_mvc_exception" />
         <module name="cpucode_mybatis_quick" />
+        <module name="cpucode_mybatis_mapper" />
         <module name="cpucode_spring_ioc_anno" />
-        <module name="cpucode_spring_jdbc" />
-        <module name="cpucode_spring_tx_anno" />
         <module name="cpucode_spring_aop" />
         <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_mvc_test" />
+        <module name="cpucode_spring_mvc" />
+        <module name="cpucode_spring_interceptor" />
+        <module name="cpucode_spring_mvc_exception" />
+        <module name="cpucode_spring_jdbc" />
+        <module name="cpucode_spring_tx_anno" />
         <module name="cpucode_spring_tx" />
         <module name="cpucode_mybatis_dao" />
-        <module name="cpucode_spring_mvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
