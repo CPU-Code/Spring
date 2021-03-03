@@ -19,7 +19,7 @@ import java.util.List;
  * @github : https://githfub.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-public class MapperTest {
+public class findByConditionTest {
 
     @Test
     public void test1() throws IOException {
@@ -32,9 +32,9 @@ public class MapperTest {
 
         User condition = new User();
 
-        condition.setId(1);
-        condition.setUsername("cpu");
-        condition.setPassword("123");
+        condition.setId(2);
+        //condition.setUsername("cpucode");
+        condition.setPassword("12345");
 
         List<User> byCondition = mapper.findByCondition(condition);
 
