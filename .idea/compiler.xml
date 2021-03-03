@@ -16,6 +16,7 @@
         <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_mvc_test" />
         <module name="cpucode_spring_tx" />
+        <module name="cpucode_mybatis_dao" />
         <module name="cpucode_spring_mvc" />
       </profile>
     </annotationProcessing>

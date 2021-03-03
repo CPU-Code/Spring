@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_dao" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_quick" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc" />
@@ -23,6 +24,7 @@
         <option value="$PROJECT_DIR$/cpucode_spring_mvc_test/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_spring_mvc_exception/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_mybatis_quick/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_mybatis_dao/pom.xml" />
       </list>
     </option>
   </component>
