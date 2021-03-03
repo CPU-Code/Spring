@@ -24,5 +24,14 @@
          </where>
     </select>
 
+    <select id="findById" parameterType="list" resultType="user">
+        select * from user
+        <where>
+            <foreach collection="list" open="id in(" close=")" item="id" separator=",">
+                #{id}
+            </foreach>
+        </where>
+    </select>
+
 
 </mapper>
