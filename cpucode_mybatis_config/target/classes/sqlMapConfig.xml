@@ -15,6 +15,16 @@
         <typeHandler handler="com.cpucode.handler.DateTypeHandler" />
     </typeHandlers>
 
+
+    <!-- 注意：分页助手的插件  配置在通用馆mapper之前 -->
+    <!-- PageHelper5版本配置 -->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 指定方言 -->
+<!--            <property name="dialect" value="mysql"/>-->
+        </plugin>
+    </plugins>
+
     <!--数据源环境-->
     <environments default="developement">
         <environment id="developement">
