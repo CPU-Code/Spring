@@ -20,6 +20,7 @@ Spring个人学习代码
 - [mybatis的Dao实现](cpucode_mybatis_dao/README.md)
 - [mybatis映射文件](cpucode_mybatis_mapper/README.md)
 - [mybatis配置文件](cpucode_mybatis_config/README.md)
+- [Mybatis多表查询](cpucode_mybatis_multi/README.md)
 
 -----------------------
 
