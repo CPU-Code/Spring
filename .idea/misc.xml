@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_config" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_dao" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_mapper" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_quick" />
@@ -27,6 +28,7 @@
         <option value="$PROJECT_DIR$/cpucode_mybatis_quick/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_mybatis_dao/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_mybatis_mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_mybatis_config/pom.xml" />
       </list>
     </option>
   </component>

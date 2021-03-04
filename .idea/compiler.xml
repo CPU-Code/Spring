@@ -19,6 +19,7 @@
         <module name="cpucode_spring_tx_anno" />
         <module name="cpucode_spring_tx" />
         <module name="cpucode_mybatis_dao" />
+        <module name="cpucode_mybatis_config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">

@@ -18,6 +18,8 @@ Spring个人学习代码
 - [SM整合](cpucode_spring_mvc_test/README.md)
 - [mybatis入门](cpucode_mybatis_quick/README.md)
 - [mybatis的Dao实现](cpucode_mybatis_dao/README.md)
+- [mybatis映射文件](cpucode_mybatis_mapper/README.md)
+- [mybatis配置文件](cpucode_mybatis_config/README.md)
 
 -----------------------
 
