@@ -19,7 +19,7 @@ public class User {
     /**
      * 代表当前用户具备哪些订单
      * */
-    private List<Order> orderList;
+/*    private List<Order> orderList;
 
     public List<Order> getOrderList() {
         return orderList;
@@ -27,7 +27,24 @@ public class User {
 
     public void setOrderList(List<Order> orderList) {
         this.orderList = orderList;
+    }*/
+
+    /**
+     * 描述的是当前用户具备哪些角色
+     * */
+    private List<Role> roleList;
+
+    public List<Role> getRoleList() {
+        return roleList;
     }
+
+    public void setRoleList(List<Role> roleList) {
+        this.roleList = roleList;
+    }
+
+
+
+
 
     public int getId() {
         return id;
@@ -68,7 +85,18 @@ public class User {
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", birthday=" + birthday +
-                ", orderList=" + orderList +
+                ", roleList=" + roleList +
                 '}';
     }
+
+/*    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", birthday=" + birthday +
+                ", orderList=" + orderList +
+                '}';
+    }*/
 }

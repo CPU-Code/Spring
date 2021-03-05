@@ -23,4 +23,25 @@
     <select id="findAll" resultMap="userMap">
         select *, o.id oid from `user` u,`orders` o where u.id = o.uid
     </select>
+
+
+    <resultMap id="userRoleMap" type="user" >
+        <!--user的信息-->
+        <id column="userId" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="birthday" property="birthday" />
+
+        <!--user内部的roleList信息-->
+        <collection property="roleList" ofType="role">
+            <id column="roleId" property="id" />
+            <result column="rolename" property="rolename" />
+            <result column="roleDesc" property="roleDesc" />
+        </collection>
+    </resultMap>
+
+    <select id="findAllUserAndRole" resultMap="userRoleMap">
+    SELECT * FROM `user` u, `user_role` ru, `role` r WHERE u.id = ru.userid AND ru.roleid = r.id
+    </select>
+
 </mapper>

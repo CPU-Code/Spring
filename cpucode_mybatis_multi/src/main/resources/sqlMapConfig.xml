@@ -9,6 +9,7 @@
     <typeAliases>
         <typeAlias type="com.cpucode.domain.User" alias="user" />
         <typeAlias type="com.cpucode.domain.Order" alias="order" />
+        <typeAlias type="com.cpucode.domain.Role" alias="role" />
     </typeAliases>
 
     <!--数据源环境-->
