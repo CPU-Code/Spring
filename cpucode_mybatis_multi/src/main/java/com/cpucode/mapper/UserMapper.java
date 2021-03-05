@@ -1,5 +1,9 @@
 package com.cpucode.mapper;
 
+import com.cpucode.domain.User;
+
+import java.util.List;
+
 /**
  * @author : cpucode
  * @date : 2021/3/4
@@ -8,5 +12,5 @@ package com.cpucode.mapper;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 public interface UserMapper {
-
+    List<User> findAll();
 }
