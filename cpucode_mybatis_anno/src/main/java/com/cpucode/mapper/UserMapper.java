@@ -45,4 +45,18 @@ public interface UserMapper {
     public List<User> findAllUserAndOrder();
 
 
+
+    @Select("select * from user")
+    @Results(value = {
+            @Result(id = true, column = "id", property = "id"),
+            @Result(column = "useranme", property = "useranme"),
+            @Result(column = "password", property = "password"),
+            @Result(
+                    column = "id",
+                    property = "roleList",
+                    javaType = List.class,
+                    many = @Many(select = "com.cpucode.mapper.RoleMapper.findByUid")
+            )
+    })
+    public List<User> findAllUserAndRole();
 }
