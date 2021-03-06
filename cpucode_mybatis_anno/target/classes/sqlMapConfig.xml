@@ -4,15 +4,11 @@
 
     <!--通过properties标签加载外部properties文件-->
     <properties resource="jdbc.properties"/>
-
     <!--自定义别名-->
     <typeAliases>
         <typeAlias type="com.cpucode.domain.User" alias="user" />
-        <typeAlias type="com.cpucode.domain.Order" alias="order" />
-        <typeAlias type="com.cpucode.domain.Role" alias="role" />
     </typeAliases>
 
-    <!--数据源环境-->
     <environments default="developement">
         <environment id="developement">
             <transactionManager type="JDBC" />
@@ -25,10 +21,15 @@
         </environment>
     </environments>
 
-    <!--加载映射文件-->
-    <mappers>
+    <!--加载映射关系-->
+<!--    <mappers>
         <mapper resource="com/cpucode/mapper/UserMapper.xml" />
-        <mapper resource="com/cpucode/mapper/OrderMapper.xml" />
+    </mappers>-->
+
+    <!--加载映射关系-->
+    <mappers>
+        <!--指定接口所在的包-->
+        <package name="com.cpucode.mapper" />
     </mappers>
 
 </configuration>
