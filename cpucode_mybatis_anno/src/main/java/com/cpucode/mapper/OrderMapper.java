@@ -40,4 +40,7 @@ public interface OrderMapper {
         )
     })
     public List<Order> findAll();
+
+    @Select("select * from orders where uid = #{uid}")
+    public List<Order> findByUid(int uid);
 }

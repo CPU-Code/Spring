@@ -1,10 +1,7 @@
 package com.cpucode.mapper;
 
 import com.cpucode.domain.User;
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -33,6 +30,19 @@ public interface UserMapper {
     public int delete(int id);
 
 
+    @Select("select * from user")
+    @Results({
+            @Result(id = true, property = "id", column = "id"),
+            @Result(column = "username", property = "username"),
+            @Result(column = "password", property = "password"),
+            @Result(
+                    column = "id",
+                    property = "orderList" ,
+                    javaType = List.class,
+                    many = @Many(select = "com.cpucode.mapper.OrderMapper.findByUid")
+            )
+    })
+    public List<User> findAllUserAndOrder();
 
 
 }

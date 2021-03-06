@@ -1,6 +1,8 @@
 package com.cpucode.domain;
 
+import javax.management.relation.Role;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author : cpucode
@@ -13,9 +15,22 @@ public class User {
     private Integer id;
     private String username;
     private String password;
+
 /*    private Date birthday;*/
 
-    //private List<Role> roleList;
+
+    /**
+     * 代表当前用户具备哪些订单
+     */
+    private List<Order> OrderList;
+
+    public List<Order> getOrderList() {
+        return OrderList;
+    }
+
+    public void setOrderList(List<Order> orderList) {
+        OrderList = orderList;
+    }
 
     public Integer getId() {
         return id;
@@ -49,14 +64,13 @@ public class User {
         this.birthday = birthday;
     }*/
 
-
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-/*                ", birthday=" + birthday +*/
+                ", OrderList=" + OrderList +
                 '}';
     }
 }
