@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--加载properties文件-->
+    <properties resource="jdbc.properties" />
+
+    <!--定义别名-->
+    <typeAliases>
+        <!--<typeAlias type="com.cpucode.domain.Account" alias="account" />-->
+        <package name="com.cpucode.domain" />
+    </typeAliases>
+
+
+    <!--环境-->
+    <environments default="developement">
+        <environment id="developement">
+            <transactionManager type="JDBC" />
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--加载映射-->
+    <mappers>
+        <!--<mapper resource="com/cpucode/mapper/AccountMapper.xml" />-->
+        <package name="com.cpucode.mapper" />
+    </mappers>
+
+
+</configuration>

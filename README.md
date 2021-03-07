@@ -15,13 +15,14 @@ Spring个人学习代码
 - [spring_mvc](cpucode_spring_mvc/README.md)
 - [spring_mvc拦截器](cpucode_spring_interceptor/README.md)
 - [异常处理](cpucode_spring_mvc_exception/README.md)
-- [SM整合](cpucode_spring_mvc_test/README.md)
+- [SS整合](cpucode_spring_mvc_test/README.md)
 - [mybatis入门](cpucode_mybatis_quick/README.md)
 - [mybatis的Dao实现](cpucode_mybatis_dao/README.md)
 - [mybatis映射文件](cpucode_mybatis_mapper/README.md)
 - [mybatis配置文件](cpucode_mybatis_config/README.md)
 - [Mybatis多表查询](cpucode_mybatis_multi/README.md)
 - [Mybatis注解](cpucode_mybatis_anno/README.md)
+- [SSM整合](cpucode_ssm/README.md)
 
 -----------------------
 

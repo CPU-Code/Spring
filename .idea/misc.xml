@@ -13,6 +13,7 @@
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc_exception" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc_test" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_springMVC" />
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_ssm" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -33,6 +34,7 @@
         <option value="$PROJECT_DIR$/cpucode_mybatis_config/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_mybatis_multi/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_mybatis_anno/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_ssm/pom.xml" />
       </list>
     </option>
   </component>
