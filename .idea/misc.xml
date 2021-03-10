@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_dubbo/dubbo_provider" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_anno" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_config" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_dao" />
@@ -35,6 +36,7 @@
         <option value="$PROJECT_DIR$/cpucode_mybatis_multi/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_mybatis_anno/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_dubbo/dubbo_provider/pom.xml" />
       </list>
     </option>
   </component>

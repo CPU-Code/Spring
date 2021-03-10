@@ -23,6 +23,7 @@ Spring个人学习代码
 - [Mybatis多表查询](cpucode_mybatis_multi/README.md)
 - [Mybatis注解](cpucode_mybatis_anno/README.md)
 - [SSM整合](cpucode_ssm/README.md)
+- [SSM整合](cpucode_dubbo/README.md)
 
 -----------------------
 
