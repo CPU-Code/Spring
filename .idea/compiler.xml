@@ -15,6 +15,7 @@
         <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_mvc_test" />
         <module name="cpucode_spring_mvc" />
+        <module name="dubbo_consumer" />
         <module name="cpucode_spring_interceptor" />
         <module name="cpucode_spring_mvc_exception" />
         <module name="cpucode_mybatis_anno" />
