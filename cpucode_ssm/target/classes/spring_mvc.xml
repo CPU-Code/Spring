@@ -12,7 +12,7 @@
     <context:component-scan base-package="com.cpucode.controller" />
 
     <!-- 配置mvc注解驱动 -->
-    <mvc:annotation-driven />
+    <mvc:annotation-driven ></mvc:annotation-driven>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver" id="resourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/" />
@@ -20,7 +20,7 @@
     </bean>
 
     <!-- 开发静态资源访问权限 -->
-    <mvc:default-servlet-handler />
+    <mvc:default-servlet-handler></mvc:default-servlet-handler>
 
 
 </beans>
