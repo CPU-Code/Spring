@@ -12,6 +12,7 @@
 - [x] [JpqlOrderTest__排序查询所有](src/test/java/com/cpucode/test/JpqlOrderTest.java)
 - [x] [JpqlCountTest__统计](src/test/java/com/cpucode/test/JpqlCountTest.java)
 - [x] [JpqlFindPagedTest__分页查询](src/test/java/com/cpucode/test/JpqlFindPagedTest.java)
+- [x] [JpqlConditionTest__条件查询](src/test/java/com/cpucode/test/JpqlConditionTest.java)
 
 -----------------
 
