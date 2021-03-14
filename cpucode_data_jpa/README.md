@@ -9,6 +9,7 @@
 - [x] [JpaUtilsMergeTest__修改](src/test/java/com/cpucode/test/JpaUtilsMergeTest.java)
 
 - [x] [JpqlFindAllTest__查询所有](src/test/java/com/cpucode/test/JpqlFindAllTest.java)
+- [x] [JpqlOrderTest__排序查询所有](src/test/java/com/cpucode/test/JpqlOrderTest.java)
 
 -----------------
 
