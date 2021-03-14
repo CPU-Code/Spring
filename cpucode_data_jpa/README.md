@@ -8,6 +8,8 @@
 - [x] [JpaUtilsRemoveTest__删除](src/test/java/com/cpucode/test/JpaUtilsRemoveTest.java)
 - [x] [JpaUtilsMergeTest__修改](src/test/java/com/cpucode/test/JpaUtilsMergeTest.java)
 
+- [x] [JpqlFindAllTest__查询所有](src/test/java/com/cpucode/test/JpqlFindAllTest.java)
+
 -----------------
 
 - [返回文件顶部](../README.md)
