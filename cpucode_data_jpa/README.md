@@ -10,6 +10,7 @@
 
 - [x] [JpqlFindAllTest__查询所有](src/test/java/com/cpucode/test/JpqlFindAllTest.java)
 - [x] [JpqlOrderTest__排序查询所有](src/test/java/com/cpucode/test/JpqlOrderTest.java)
+- [x] [JpqlCountTest__统计](src/test/java/com/cpucode/test/JpqlCountTest.java)
 
 -----------------
 
