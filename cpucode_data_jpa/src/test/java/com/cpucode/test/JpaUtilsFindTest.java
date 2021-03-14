@@ -8,6 +8,11 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityTransaction;
 
 /**
+ * 根据id查询客户
+ * 使用find方法查询:
+ *      1.查询的对象就是当前客户对象本身
+ *      2.在调用find方法的时候,就会发送sq1语句查询数据甪
+ *
  * @author : cpucode
  * @date : 2021/3/14
  * @time : 21:09
