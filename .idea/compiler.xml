@@ -9,6 +9,7 @@
         <module name="cpucode_ssm" />
         <module name="dubbo_provider" />
         <module name="cpucode_mybatis_quick" />
+        <module name="cpucode_data_jpa" />
         <module name="cpucode_mybatis_mapper" />
         <module name="cpucode_spring_ioc_anno" />
         <module name="cpucode_spring_aop" />

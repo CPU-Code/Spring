@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cpucode_data_jpa" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_dubbo/dubbo_consumer" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_dubbo/dubbo_provider" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_mybatis_anno" />
@@ -39,6 +40,7 @@
         <option value="$PROJECT_DIR$/cpucode_ssm/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_dubbo/dubbo_provider/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_dubbo/dubbo_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/cpucode_data_jpa/pom.xml" />
       </list>
     </option>
   </component>

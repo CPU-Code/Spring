@@ -24,6 +24,7 @@ Spring个人学习代码
 - [Mybatis注解](cpucode_mybatis_anno/README.md)
 - [SSM整合](cpucode_ssm/README.md)
 - [Dubbo](cpucode_dubbo/README.md)
+- [spring_data_jpa](cpucode_data_jpa/README.md)
 
 
 -----------------------
