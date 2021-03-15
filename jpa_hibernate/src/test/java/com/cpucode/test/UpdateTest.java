@@ -3,31 +3,34 @@ package com.cpucode.test;
 import com.cpucode.dao.CustomerDao;
 import com.cpucode.domain.Customer;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 /**
+
+ *
  * @author : cpucode
  * @date : 2021/3/15
- * @time : 13:37
+ * @time : 13:44
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:applicationContext.xml")
-public class FindOneTest {
+public class UpdateTest {
+
     @Autowired
     private CustomerDao customerDao;
 
     /**
-     * 根据id查询：调用findOne(id)方法
+     *  修改客户：调用save(obj)方法
+     *  对于save方法的解释：如果执行此方法是对象中存在id属性，即为更新操作会先根据id查询，再更新
+     *     如果执行此方法中对象中不存在id属性，即为保存操作
      */
     @Test
     public void test1(){
         Customer customer = customerDao.findOne(2L);
 
-        System.out.println(customer);
+        customer.setCustName("cpu");
+
+        //更新
+        customerDao.save(customer);
     }
 }
