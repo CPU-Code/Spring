@@ -12,6 +12,8 @@
 - [x] [FindJpqlTest__jpql根据名字查询](src/test/java/com/cpucode/test/FindJpqlTest.java)
 - [x] [FindCustNameAndIdTest__jpql根据名字id查询](src/test/java/com/cpucode/test/FindCustNameAndIdTest.java)
 - [x] [UpdateCustomperTest__jpql更新](src/test/java/com/cpucode/test/UpdateCustomperTest.java)
+- [x] [FindSqlTest__sql查询](src/test/java/com/cpucode/test/FindSqlTest.java)
+
 
 -----------------
 

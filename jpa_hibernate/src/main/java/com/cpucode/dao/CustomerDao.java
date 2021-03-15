@@ -6,6 +6,8 @@ import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 
+import java.util.List;
+
 /**
  *  JpaRepository<实体类类型，主键类型>：
  *      用来完成基本CRUD操作
@@ -57,4 +59,18 @@ public interface CustomerDao extends JpaRepository<Customer, Long>, JpaSpecifica
     @Query(value = "update Customer set custName = ?2 where custId = ?1")
     @Modifying
     public void updateCustomper(Long custId, String custName);
+
+    /**
+     * 使用sq1的形式查询:
+     *      查询全部的客户
+     * sql: select * from cst_customer;
+     *
+     * Query:配置sq1查询
+     *      value:sql语句
+     *      nativeQuery:查询方株式
+     *          true:sql查询
+     *          false:jpq1查询
+     */
+    @Query(value = "select * from cust_customer", nativeQuery = true)
+    public List<Object [] > findSql();
 }
