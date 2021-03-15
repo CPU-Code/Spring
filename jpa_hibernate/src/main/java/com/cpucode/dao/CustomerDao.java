@@ -73,4 +73,7 @@ public interface CustomerDao extends JpaRepository<Customer, Long>, JpaSpecifica
      */
     @Query(value = "select * from cust_customer", nativeQuery = true)
     public List<Object [] > findSql();
+
+    @Query(value = "select * from cust_customer where cust_name like ?1", nativeQuery = true)
+    public List<Object [] > findVague(String name);
 }
