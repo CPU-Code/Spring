@@ -4,8 +4,6 @@ import com.cpucode.domain.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 
-import javax.persistence.Entity;
-
 /**
  *  JpaRepository<实体类类型，主键类型>：
  *      用来完成基本CRUD操作

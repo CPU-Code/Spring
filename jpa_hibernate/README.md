@@ -6,6 +6,7 @@
 - [ ] [SaveTest__保存](src/test/java/com/cpucode/test/SaveTest.java)
 - [ ] [DeleteTest__删除](src/test/java/com/cpucode/test/DeleteTest.java)
 - [ ] [FindAllTest__查询所有](src/test/java/com/cpucode/test/FindAllTest.java)
+- [ ] [CountTest__统计](src/test/java/com/cpucode/test/CountTest.java)
 
 -----------------
 
