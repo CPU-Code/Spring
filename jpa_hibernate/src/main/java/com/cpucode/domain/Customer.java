@@ -12,48 +12,83 @@ package com.cpucode.domain;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 
-/**
- * 声明实体类
- */
 
 import javax.persistence.*;
 
 /**
- * 建立实体类和表的映射关系
+ * 声明实体类
  */
 @Entity
-@Table(name= "cust_customer")
+/**
+ * 建立实体类和表的映射关系
+ */
+@Table(name = "cust_customer")
 public class Customer {
+    /**
+     * 客户组件
+     */
     /**
      * 声明当前私有属性为主键
      */
-
+    @Id
     /**
      * 配置主键的生成策略
+     * @GeneratedValue : 配置主键的生成策略
+     * strategy
+     *      GenerationType.IDENTITY: 自增, mysql
+     *           底层数据库必须支持自动增长(底层数据库支持的自动增长方式,对id自增)
+     *      GenerationType.SEQUENCE: 序列, oracle
+     *          底层数据库必须支持序列
+     *      GenerationType.TABLE:
+     *          jpa提供的一种机制,通过一张数据库表的形式帮助我们完成主键自增
+     *      GenerationType.AUTO:
+     *          由程序自动的帮助我们选择主键生成策略
      */
-    @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    /**
+     * 指定和表中cust_id字段的映射关系
+     */
     @Column(name = "cust_id")
     private Long custId;
 
-    @Column(name="cust_address")
-    private String custAddress;
-
-    @Column(name="cust_industry")
-    private String custIndustry;
-
-    @Column(name="cust_level")
-    private String custLevel;
-
+    /**
+     * 客户名字
+     */
+    /**
+     * 指定和表中cust_name字段的映射关系
+     */
     @Column(name = "cust_name")
     private String custName;
 
-    @Column(name="cust_source")
+    /**
+     * 客户来源
+     */
+    @Column(name = "cust_source")
     private String custSource;
 
+    /**
+     * 客户级别
+     */
+    @Column(name = "cust_level")
+    private String custLevel;
 
-    @Column(name="cust_phone")
+    /**
+     * 客户所属行业
+     */
+    @Column(name = "cust_industry")
+    private String custIndustry;
+
+    /**
+     * 客户的联系方式
+     */
+    @Column(name = "cust_phone")
     private String custPhone;
+
+    /**
+     * 客户地址
+     */
+    @Column(name = "cust_address")
+    private String custAddress;
 
     public Long getCustId() {
         return custId;
@@ -79,14 +114,6 @@ public class Customer {
         this.custSource = custSource;
     }
 
-    public String getCustIndustry() {
-        return custIndustry;
-    }
-
-    public void setCustIndustry(String custIndustry) {
-        this.custIndustry = custIndustry;
-    }
-
     public String getCustLevel() {
         return custLevel;
     }
@@ -95,12 +122,12 @@ public class Customer {
         this.custLevel = custLevel;
     }
 
-    public String getCustAddress() {
-        return custAddress;
+    public String getCustIndustry() {
+        return custIndustry;
     }
 
-    public void setCustAddress(String custAddress) {
-        this.custAddress = custAddress;
+    public void setCustIndustry(String custIndustry) {
+        this.custIndustry = custIndustry;
     }
 
     public String getCustPhone() {
@@ -111,16 +138,24 @@ public class Customer {
         this.custPhone = custPhone;
     }
 
+    public String getCustAddress() {
+        return custAddress;
+    }
+
+    public void setCustAddress(String custAddress) {
+        this.custAddress = custAddress;
+    }
+
     @Override
     public String toString() {
         return "Customer{" +
                 "custId=" + custId +
                 ", custName='" + custName + '\'' +
                 ", custSource='" + custSource + '\'' +
-                ", custIndustry='" + custIndustry + '\'' +
                 ", custLevel='" + custLevel + '\'' +
-                ", custAddress='" + custAddress + '\'' +
+                ", custIndustry='" + custIndustry + '\'' +
                 ", custPhone='" + custPhone + '\'' +
+                ", custAddress='" + custAddress + '\'' +
                 '}';
     }
 }
