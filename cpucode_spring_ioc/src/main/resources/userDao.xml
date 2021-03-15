@@ -11,5 +11,5 @@
 
         它会根据默认无参构造方法来创建类对象，如果bean中没有默认无参构造函数，将会创建失败
     -->
-    <bean id="userDao" class="cpucode.dao.impl.UserDaoImpl"></bean>
+    <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl"></bean>
 </beans>

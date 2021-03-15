@@ -8,5 +8,5 @@
     -->
     <import resource="userDao.xml"></import>
 
-    <bean id="userService" class="cpucode.service.impl.UserServiceImpl"></bean>
+    <bean id="userService" class="com.cpucode.service.impl.UserServiceImpl"></bean>
 </beans>
