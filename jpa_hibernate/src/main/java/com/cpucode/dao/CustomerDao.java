@@ -76,4 +76,17 @@ public interface CustomerDao extends JpaRepository<Customer, Long>, JpaSpecifica
 
     @Query(value = "select * from cust_customer where cust_name like ?1", nativeQuery = true)
     public List<Object [] > findVague(String name);
+
+    /**
+     * 方法名的约定:
+     *  findBy:查询
+     *      对象中的属性名(首字母大写):查询的条件
+     *      CustName
+     * findByCustName -- 根据客户名称查询
+     *
+     * 再springdataJpa的运行阶段
+     *      会根据方法名称进行解析 findBy from xxx(实体类)
+     *          属性名称    where custName =
+     */
+    public Customer findByCustName(String custName);
 }
