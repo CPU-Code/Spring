@@ -9,6 +9,7 @@
 - [x] [CountTest__统计](src/test/java/com/cpucode/test/CountTest.java)
 - [x] [ExistsTest__是否存在](src/test/java/com/cpucode/test/ExistsTest.java)
 - [x] [GetOneTest__事务id查询](src/test/java/com/cpucode/test/GetOneTest.java)
+- [x] [FindJpqlTest__jpql根据名字查询](src/test/java/com/cpucode/test/FindJpqlTest.java)
 
 -----------------
 
