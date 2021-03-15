@@ -27,4 +27,18 @@ public interface CustomerDao extends JpaRepository<Customer, Long>, JpaSpecifica
      */
     @Query(value = "from Customer where custName = ?")
     public Customer findJpql(String custName);
+
+    /**
+     * 案例:根据客户名称和客户id查询客户
+     *      jpql:from Customer where custName=? and custId=?
+     *  对于多个占位符参数
+     *      赋值的时候,默认的情况下,占位符的位置需要和方法参数中的位置保持一致
+     *  可以指定占位符参数的位置
+     *      ?索引的方式,指定此占位的取值来源
+     * @param name
+     * @param id
+     * @return
+     */
+    @Query(value = "from Customer where custName = ? and custId = ?")
+    public Customer findCustNameAndId(String name, Long id);
 }
