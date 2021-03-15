@@ -30,7 +30,7 @@ public class ExistsTest {
      */
     @Test
     public void test1(){
-        boolean exists = customerDao.exists(4L);
+        boolean exists = customerDao.exists(2L);
 
         System.out.println(exists);
     }
