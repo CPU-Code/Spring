@@ -15,6 +15,7 @@
         <module name="cpucode_spring_aop" />
         <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_mvc_test" />
+        <module name="jpa_hibernate" />
         <module name="cpucode_spring_mvc" />
         <module name="dubbo_consumer" />
         <module name="cpucode_spring_interceptor" />

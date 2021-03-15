@@ -17,6 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/cpucode_spring_mvc_test" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_springMVC" />
     <file type="web" url="file://$PROJECT_DIR$/cpucode_ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/jpa_hibernate" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -41,6 +42,7 @@
         <option value="$PROJECT_DIR$/cpucode_dubbo/dubbo_provider/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_dubbo/dubbo_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_data_jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa_hibernate/pom.xml" />
       </list>
     </option>
   </component>
