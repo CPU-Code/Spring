@@ -15,6 +15,7 @@
 - [x] [FindSqlTest__sql查询](src/test/java/com/cpucode/test/FindSqlTest.java)
 - [x] [FindVagueTest__模糊查询](src/test/java/com/cpucode/test/FindVagueTest.java)
 - [x] [FindByCustNameTest__不用sql查询](src/test/java/com/cpucode/test/FindByCustNameTest.java)
+- [x] [FindByCustNameLikeTest__不用sql模糊查询](src/test/java/com/cpucode/test/FindByCustNameLikeTest.java)
 
 -----------------
 

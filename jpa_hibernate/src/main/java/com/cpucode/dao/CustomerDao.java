@@ -89,4 +89,11 @@ public interface CustomerDao extends JpaRepository<Customer, Long>, JpaSpecifica
      *          属性名称    where custName =
      */
     public Customer findByCustName(String custName);
+
+    /**
+     * findBy + 属性名称 (根据属性名称进行完成匹配的查询 = )
+     *      findBy + 属性名称 + “ 查询方式 ( Like | isnull ) ”
+     *          findByCustNameLike
+     */
+    public List<Customer> findByCustNameLike(String custName);
 }
