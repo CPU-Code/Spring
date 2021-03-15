@@ -29,6 +29,8 @@ public class GetOneTest {
      *      em.find() :立即加载
      * getOne:
      *      em.getReference :延迟加载
+     *          返回的是一个客户的动态代理对象
+     *          什么时候用,什么时候查询
      */
     @Test
     @Transactional
