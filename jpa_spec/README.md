@@ -5,7 +5,7 @@
 - [x] [AndTest__组合查询](src/test/java/com/cpucode/test/AndTest.java)
 - [x] [VagueFindTest__模糊查询](src/test/java/com/cpucode/test/VagueFindTest.java)
 - [x] [SortTest__排序查询](src/test/java/com/cpucode/test/SortTest.java)
-
+- [x] [PagingTest__分页查询](src/test/java/com/cpucode/test/PagingTest.java)
 
 -----------------
 
