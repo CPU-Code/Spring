@@ -36,7 +36,7 @@ public class FindOneTest {
      *      案例:根据客户名称查询,查询客户名为传智播客的客户
      *      查询条件
      *          1.查询方式
-     *              cb对象
+     *              criteriaBuilder对象
      *          2.比较的属性名称
      *              root对象
      */
@@ -51,8 +51,8 @@ public class FindOneTest {
                 //2.构造查询条件:select*from cst_customer where cust_name='传智播客'
                 /**
                  * 进行精准的匹配 (比较的属性,比较的属性的取值)
-                 *第一个参数:需要比较的属性(path对象)
-                 *第二个参数:当前需要比较的取值
+                 *      第一个参数:需要比较的属性(path对象)
+                 *      第二个参数:当前需要比较的取值
                  */
                 Predicate predicate = criteriaBuilder.equal(custName, "cpucode");
 
