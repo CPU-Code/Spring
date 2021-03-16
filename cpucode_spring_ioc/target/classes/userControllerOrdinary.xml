@@ -6,12 +6,12 @@
     <!--
         普通数据类型的注入
     -->
-    <bean id="userDao" class="cpucode.dao.impl.UserDaoImpl">
+    <bean id="userDao" class="com.cpucode.dao.impl.UserDaoImpl">
         <property name="username" value="cpuCode" />
         <property name="age" value="20" />
     </bean>
 
-    <bean id="UserControllerOrdinary" class="cpucode.service.impl.UserServiceOrdinaryImpl">
+    <bean id="UserControllerOrdinary" class="com.cpucode.service.impl.UserServiceOrdinaryImpl">
         <constructor-arg name="userDao" ref="userDao"></constructor-arg>
     </bean>
 </beans>

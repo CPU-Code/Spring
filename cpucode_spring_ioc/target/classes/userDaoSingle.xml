@@ -19,5 +19,5 @@
     对象销毁：当应用卸载，销毁容器时，对象就被销毁了
 
     -->
-    <bean id="userDaoSingle" class="cpucode.dao.impl.UserDaoImpl" scope="singleton"></bean>
+    <bean id="userDaoSingle" class="com.cpucode.dao.impl.UserDaoImpl" scope="singleton"></bean>
 </beans>

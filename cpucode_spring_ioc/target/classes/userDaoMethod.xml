@@ -8,5 +8,5 @@
 
         destroy-method：指定类中销毁方法名称
     -->
-    <bean id="userDaoMethod" class="cpucode.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean>
+    <bean id="userDaoMethod" class="com.cpucode.dao.impl.UserDaoImpl" init-method="init" destroy-method="destory"></bean>
 </beans>

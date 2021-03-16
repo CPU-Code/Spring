@@ -10,5 +10,5 @@
 
     <import resource="userDao.xml"></import>
 
-    <bean id="userServiceSetP" class="cpucode.service.impl.UserServiceSetImpl" p:userDao-ref="userDao"/>
+    <bean id="userServiceSetP" class="com.cpucode.service.impl.UserServiceSetImpl" p:userDao-ref="userDao"/>
 </beans>

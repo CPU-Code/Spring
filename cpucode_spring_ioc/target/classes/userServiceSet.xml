@@ -9,7 +9,7 @@
 
     <import resource="userDao.xml"></import>
 
-    <bean id="userServiceSet" class="cpucode.service.impl.UserServiceSetImpl">
+    <bean id="userServiceSet" class="com.cpucode.service.impl.UserServiceSetImpl">
         <property name="userDao" ref="userDao"></property>
     </bean>
 </beans>
