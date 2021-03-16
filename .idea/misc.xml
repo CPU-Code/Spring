@@ -43,6 +43,7 @@
         <option value="$PROJECT_DIR$/cpucode_dubbo/dubbo_consumer/pom.xml" />
         <option value="$PROJECT_DIR$/cpucode_data_jpa/pom.xml" />
         <option value="$PROJECT_DIR$/jpa_hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa_spec/pom.xml" />
       </list>
     </option>
   </component>
