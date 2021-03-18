@@ -31,6 +31,8 @@ Spring个人学习代码
 - [spring_data_jpa](cpucode_data_jpa/README.md)
 - [jpa_hibernate](jpa_hibernate/README.md)
 - [jpa_spec](jpa_spec/README.md)
+- [jpa_one_to_many](jpa_one_to_many/README.md)
+
 
 -----------------------
 
