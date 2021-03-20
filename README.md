@@ -34,6 +34,8 @@ Spring个人学习代码
 - [jpa_one_to_many](jpa_one_to_many/README.md)
 - [jpa_many_to_many](jpa_many_to_many/README.md)
 
+- [rabbitmq](rabbitmq/README.md)
+
 -----------------------
 
 - [返回文件目录](#文件目录)
