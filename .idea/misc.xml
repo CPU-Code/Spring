@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/jpa_hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/jpa_spec/pom.xml" />
         <option value="$PROJECT_DIR$/jpa_one_to_many/pom.xml" />
+        <option value="$PROJECT_DIR$/jpa_many_to_many/pom.xml" />
       </list>
     </option>
   </component>
