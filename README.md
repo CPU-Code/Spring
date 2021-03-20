@@ -32,7 +32,7 @@ Spring个人学习代码
 - [jpa_hibernate](jpa_hibernate/README.md)
 - [jpa_spec](jpa_spec/README.md)
 - [jpa_one_to_many](jpa_one_to_many/README.md)
-
+- [jpa_many_to_many](jpa_many_to_many/README.md)
 
 -----------------------
 
