@@ -12,6 +12,10 @@
 - [ ] [Consumer2__订阅消费者2](cpucode_rabbitmq/src/main/java/com/cpucode/rabbitmq/ps/Consumer2.java)
 - [ ] [Producer__订阅生产者](cpucode_rabbitmq/src/main/java/com/cpucode/rabbitmq/ps/Producer.java)
 
+- [ ] [Consumer__路由消费者1](cpucode_rabbitmq/src/main/java/com/cpucode/rabbitmq/routing/Consumer1.java)
+- [ ] [Consumer2__路由消费者2](cpucode_rabbitmq/src/main/java/com/cpucode/rabbitmq/routing/Consumer2.java)
+- [ ] [Producer__路由生产者](cpucode_rabbitmq/src/main/java/com/cpucode/rabbitmq/routing/Producer.java)
+
 -----------------
 
 - [返回文件顶部](../README.md)
