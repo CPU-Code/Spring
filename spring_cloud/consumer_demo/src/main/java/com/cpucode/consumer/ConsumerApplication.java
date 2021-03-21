@@ -2,6 +2,7 @@ package com.cpucode.consumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
@@ -14,6 +15,10 @@ import org.springframework.web.client.RestTemplate;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 @SpringBootApplication
+/**
+ * 开启Eureka客户端发现功能
+ */
+@EnableDiscoveryClient
 public class ConsumerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ConsumerApplication.class, args);
