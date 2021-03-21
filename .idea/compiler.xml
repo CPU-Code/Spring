@@ -19,6 +19,7 @@
         <module name="cpucode_spring_tx_anno" />
         <module name="cpucode_rabbitmq" />
         <module name="springboot_rabbitmq_consumer" />
+        <module name="eureka_server" />
         <module name="cpucode_mybatis_multi" />
         <module name="jpa_many_to_many" />
         <module name="cpucode_mybatis_config" />
@@ -51,6 +52,7 @@
       <module name="consumer_demo" options="-parameters" />
       <module name="cpucode_rabbitmq" options="-parameters" />
       <module name="cpucode_springcloud" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
       <module name="http_demo" options="-parameters" />
       <module name="springboot_rabbitmq_consumer" options="-parameters" />
       <module name="springboot_rabbitmq_producer" options="-parameters" />

@@ -13,6 +13,7 @@
         <module>http_demo</module>
         <module>consumer_demo</module>
         <module>user_service</module>
+        <module>eureka_server</module>
     </modules>
 
     <properties>
