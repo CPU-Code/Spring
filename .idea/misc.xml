@@ -50,6 +50,12 @@
         <option value="$PROJECT_DIR$/spring_cloud/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring_cloud/cpucode_springcloud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud/user_service/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/cpucode_spring_ioc" />

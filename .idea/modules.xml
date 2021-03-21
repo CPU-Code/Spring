@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring.iml" filepath="$PROJECT_DIR$/.idea/Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/cpucode_dubbo/cpucode_dubbo.iml" filepath="$PROJECT_DIR$/cpucode_dubbo/cpucode_dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring_cloud/user_service/user_service.iml" filepath="$PROJECT_DIR$/spring_cloud/user_service/user_service.iml" />
     </modules>
   </component>
 </project>
