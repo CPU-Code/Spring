@@ -13,6 +13,7 @@
         <module name="cpucode_spring_aop" />
         <module name="cpucode_spring_ioc" />
         <module name="cpucode_spring_mvc_test" />
+        <module name="http_demo" />
         <module name="cpucode_spring_interceptor" />
         <module name="cpucode_spring_mvc_exception" />
         <module name="cpucode_spring_tx_anno" />
@@ -43,6 +44,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cpucode_rabbitmq" options="-parameters" />
+      <module name="http_demo" options="-parameters" />
       <module name="springboot_rabbitmq_consumer" options="-parameters" />
       <module name="springboot_rabbitmq_producer" options="-parameters" />
     </option>

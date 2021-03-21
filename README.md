@@ -36,6 +36,8 @@ Spring个人学习代码
 
 - [rabbitmq](rabbitmq/README.md)
 
+- [spring_cloud](spring_cloud/README.md)
+
 -----------------------
 
 - [返回文件目录](#文件目录)

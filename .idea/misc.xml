@@ -47,6 +47,7 @@
         <option value="$PROJECT_DIR$/jpa_one_to_many/pom.xml" />
         <option value="$PROJECT_DIR$/jpa_many_to_many/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_cloud/pom.xml" />
       </list>
     </option>
   </component>
