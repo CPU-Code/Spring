@@ -9,4 +9,4 @@ spring:
     password: 12345
 
 mybatis:
-  type-aliases-package: com.itheima.user.pojo
+  type-aliases-package: com.cpucode.user.pojo
