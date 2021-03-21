@@ -1,3 +1,12 @@
 server:
   port: 9091
-  
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jc.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cpucode
+    username: root
+    password: 12345
+
+mybatis:
+  type-aliases-package: com.itheima.user.pojo

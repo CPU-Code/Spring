@@ -5,8 +5,6 @@ import tk.mybatis.mapper.annotation.KeySql;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-
-
 /**
  * @author : cpucode
  * @date : 2021/3/21
