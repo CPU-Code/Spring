@@ -2,6 +2,7 @@
 # [mybatis_plus](../README.md)
 
 - [x] [findAllTest__查询所有](src/test/java/com/cpucode/mybatis_plus/findAllTest.java)
+- [x] [AddTest__插入数据](src/test/java/com/cpucode/mybatis_plus/AddTest.java)
 
 -----------------
 
