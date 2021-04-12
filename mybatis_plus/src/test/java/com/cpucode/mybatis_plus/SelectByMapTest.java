@@ -23,7 +23,7 @@ public class SelectByMapTest {
     private UserMapper userMapper;
 
     /**
-     * 测试乐观锁
+     * 简单条件查询
      */
     @Test
     public void test1() {
