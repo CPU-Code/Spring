@@ -15,6 +15,7 @@
 - [x] [DeleteByIdTest__根据id删除数据](src/test/java/com/cpucode/mybatis_plus/DeleteByIdTest.java)
 - [x] [DeleteBatchIdsTest__批量删除](src/test/java/com/cpucode/mybatis_plus/DeleteBatchIdsTest.java)
 - [x] [DeleteByMapTest__条件删除](src/test/java/com/cpucode/mybatis_plus/DeleteByMapTest.java)
+- [x] [LogicDeleteTest__逻辑删除](src/test/java/com/cpucode/mybatis_plus/LogicDeleteTest.java)
 
 -----------------
 
