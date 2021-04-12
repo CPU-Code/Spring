@@ -18,6 +18,9 @@
 - [x] [LogicDeleteTest__逻辑删除](src/test/java/com/cpucode/mybatis_plus/LogicDeleteTest.java)
 - [x] [LogicDeleteSelectTest__逻辑查询](src/test/java/com/cpucode/mybatis_plus/LogicDeleteSelectTest.java)
 
+- [x] [QueryTest__大于小于不等于查询](src/test/java/com/cpucode/mybatis_plus/QueryTest.java)
+
+
 -----------------
 
 - [返回文件顶部](../README.md)
