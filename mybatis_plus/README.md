@@ -8,6 +8,7 @@
 - [x] [SelectIdTest__多个id查询](src/test/java/com/cpucode/mybatis_plus/SelectIdTest.java)
 - [x] [SelectByMapTest__条件查询](src/test/java/com/cpucode/mybatis_plus/SelectByMapTest.java)
 - [x] [SelectPageTest__selectPage分页](src/test/java/com/cpucode/mybatis_plus/SelectPageTest.java)
+- [x] [SelectMapsPageTest__selectMapsPage分页](src/test/java/com/cpucode/mybatis_plus/SelectMapsPageTest.java)
 
 -----------------
 
