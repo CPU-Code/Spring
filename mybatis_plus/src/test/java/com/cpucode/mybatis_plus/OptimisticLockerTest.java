@@ -9,26 +9,25 @@ import org.springframework.boot.test.context.SpringBootTest;
 /**
  * @author : cpucode
  * @date : 2021/4/12
- * @time : 20:18
+ * @time : 22:19
  * @github : https://github.com/CPU-Code
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 @SpringBootTest
-public class AddTest {
+public class OptimisticLockerTest {
+
     @Autowired
     private UserMapper userMapper;
 
+    /**
+     * 测试乐观锁
+     */
     @Test
-    public void AddTest() {
-        User user = new User();
-
-        user.setName("cpucode");
-        user.setAge(21);
-        user.setEmail("923992029@qq.com");
-
-        int insert = userMapper.insert(user);
-
-        System.out.println(insert);
-
+    public void testOptimisticLocker() {
+        //根据id查询
+        User user = userMapper.selectById(1381614535189782530L);
+        //修改
+        user.setName("张三");
+        userMapper.updateById(user);
     }
 }
