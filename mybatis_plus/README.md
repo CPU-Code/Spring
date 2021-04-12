@@ -20,6 +20,8 @@
 
 - [x] [QueryTest__大于小于不等于查询](src/test/java/com/cpucode/mybatis_plus/QueryTest.java)
 - [x] [SelectOneTest__等于不等于查询](src/test/java/com/cpucode/mybatis_plus/SelectOneTest.java)
+- [x] [SelectCountTest__范围查询](src/test/java/com/cpucode/mybatis_plus/SelectCountTest.java)
+
 
 -----------------
 
