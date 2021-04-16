@@ -16,6 +16,7 @@
 - [x] [FindUserListRepTest__条件查询](src/test/java/com/cpucode/mongodb/FindUserListRepTest.java)
 - [x] [FindUsersLikeNameRepTest__模糊查询](src/test/java/com/cpucode/mongodb/FindUsersLikeNameRepTest.java)
 - [x] [FindUsersPageRepTest__分页查询](src/test/java/com/cpucode/mongodb/FindUsersPageRepTest.java)
+- [x] [UpdateUserRepTest__修改](src/test/java/com/cpucode/mongodb/UpdateUserRepTest.java)
 
 -----------------
 
