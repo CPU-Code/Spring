@@ -11,7 +11,7 @@
 - [x] [DeleteTest__删除操作](src/test/java/com/cpucode/mongodb/DeleteTest.java)
 
 - [x] [CreateUserRepTest__添加](src/test/java/com/cpucode/mongodb/CreateUserRepTest.java)
-
+- [x] [FindUserRepTest__查询所有](src/test/java/com/cpucode/mongodb/FindUserRepTest.java)
 
 -----------------
 
