@@ -5,6 +5,7 @@
 - [x] [FindUserTest__查询所有](src/test/java/com/cpucode/mongodb/FindUserTest.java)
 - [x] [GetByIdTest__根据id查询](src/test/java/com/cpucode/mongodb/GetByIdTest.java)
 - [x] [FindUserListTest__条件查询](src/test/java/com/cpucode/mongodb/FindUserListTest.java)
+- [x] [FindUsersLikeNameTest__模糊查询](src/test/java/com/cpucode/mongodb/FindUsersLikeNameTest.java)
 
 -----------------
 
