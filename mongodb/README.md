@@ -8,6 +8,7 @@
 - [x] [FindUsersLikeNameTest__模糊查询](src/test/java/com/cpucode/mongodb/FindUsersLikeNameTest.java)
 - [x] [FindUsersPageTest__分页查询](src/test/java/com/cpucode/mongodb/FindUsersPageTest.java)
 - [x] [UpdateUserTest__修改](src/test/java/com/cpucode/mongodb/UpdateUserTest.java)
+- [x] [DeleteTest__删除操作](src/test/java/com/cpucode/mongodb/DeleteTest.java)
 
 -----------------
 
