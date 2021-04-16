@@ -6,9 +6,12 @@
 - [x] [GetByIdTest__根据id查询](src/test/java/com/cpucode/mongodb/GetByIdTest.java)
 - [x] [FindUserListTest__条件查询](src/test/java/com/cpucode/mongodb/FindUserListTest.java)
 - [x] [FindUsersLikeNameTest__模糊查询](src/test/java/com/cpucode/mongodb/FindUsersLikeNameTest.java)
-- [x] [FindUsersPageTest__分页查询](src/test/java/com/cpucode/mongodb/FindUsersPageTest.java)
+- [x] [FindUsersPag eTest__分页查询](src/test/java/com/cpucode/mongodb/FindUsersPageTest.java)
 - [x] [UpdateUserTest__修改](src/test/java/com/cpucode/mongodb/UpdateUserTest.java)
 - [x] [DeleteTest__删除操作](src/test/java/com/cpucode/mongodb/DeleteTest.java)
+
+- [x] [CreateUserRepTest__添加](src/test/java/com/cpucode/mongodb/CreateUserRepTest.java)
+
 
 -----------------
 
