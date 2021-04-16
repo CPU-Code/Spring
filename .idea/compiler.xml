@@ -7,38 +7,39 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jpa_one_to_many" />
-        <module name="cpucode_ssm" />
-        <module name="cpucode_mybatis_mapper" />
-        <module name="cpucode_spring_ioc_anno" />
-        <module name="cpucode_spring_aop" />
-        <module name="cpucode_spring_ioc" />
-        <module name="cpucode_spring_mvc_test" />
-        <module name="http_demo" />
-        <module name="cpucode_spring_interceptor" />
-        <module name="cpucode_spring_mvc_exception" />
-        <module name="cpucode_spring_tx_anno" />
-        <module name="cpucode_rabbitmq" />
-        <module name="springboot_rabbitmq_consumer" />
-        <module name="eureka_server" />
-        <module name="cpucode_mybatis_multi" />
-        <module name="jpa_many_to_many" />
-        <module name="cpucode_mybatis_config" />
-        <module name="dubbo_provider" />
         <module name="cpucode_mybatis_quick" />
-        <module name="cpucode_data_jpa" />
+        <module name="cpucode_mybatis_config" />
+        <module name="cpucode_ssm" />
+        <module name="cpucode_spring_tx" />
+        <module name="cpucode_spring_tx_anno" />
+        <module name="mongodb" />
+        <module name="cpucode_rabbitmq" />
         <module name="mybatis_plus" />
-        <module name="jpa_hibernate" />
+        <module name="cpucode_mybatis_multi" />
+        <module name="cpucode_data_jpa" />
+        <module name="cpucode_spring_ioc" />
+        <module name="cpucode_spring_interceptor" />
+        <module name="cpucode_springcloud" />
+        <module name="cpucode_spring_jdbc" />
+        <module name="cpucode_mybatis_mapper" />
+        <module name="cpucode_spring_mvc_test" />
+        <module name="cpucode_spring_aop" />
+        <module name="cpucode_spring_mvc_exception" />
+        <module name="springboot_rabbitmq_producer" />
+        <module name="dubbo_provider" />
+        <module name="cpucode_spring_ioc_anno" />
+        <module name="jpa_many_to_many" />
+        <module name="jpa_spec" />
+        <module name="jpa_one_to_many" />
         <module name="dubbo_consumer" />
+        <module name="jpa_hibernate" />
+        <module name="cpucode_mybatis_anno" />
+        <module name="eureka_server" />
+        <module name="http_demo" />
+        <module name="user_service" />
+        <module name="springboot_rabbitmq_consumer" />
         <module name="cpucode_spring_mvc" />
         <module name="consumer_demo" />
-        <module name="cpucode_springcloud" />
-        <module name="springboot_rabbitmq_producer" />
-        <module name="jpa_spec" />
-        <module name="cpucode_mybatis_anno" />
-        <module name="user_service" />
-        <module name="cpucode_spring_jdbc" />
-        <module name="cpucode_spring_tx" />
         <module name="cpucode_mybatis_dao" />
       </profile>
     </annotationProcessing>
@@ -52,6 +53,7 @@
       <module name="cpucode_rabbitmq" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="http_demo" options="-parameters" />
+      <module name="mongodb" options="-parameters" />
       <module name="mybatis_plus" options="-parameters" />
       <module name="springboot_rabbitmq_consumer" options="-parameters" />
       <module name="springboot_rabbitmq_producer" options="-parameters" />
