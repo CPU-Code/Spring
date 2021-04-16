@@ -14,6 +14,8 @@
 - [x] [FindUserRepTest__查询所有](src/test/java/com/cpucode/mongodb/FindUserRepTest.java)
 - [x] [GetByIdPepTest__id查询](src/test/java/com/cpucode/mongodb/GetByIdPepTest.java)
 - [x] [FindUserListRepTest__条件查询](src/test/java/com/cpucode/mongodb/FindUserListRepTest.java)
+- [x] [FindUsersLikeNameRepTest__模糊查询](src/test/java/com/cpucode/mongodb/FindUsersLikeNameRepTest.java)
+
 
 -----------------
 
