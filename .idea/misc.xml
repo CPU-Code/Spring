@@ -50,6 +50,13 @@
         <option value="$PROJECT_DIR$/spring_cloud/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis_plus/pom.xml" />
         <option value="$PROJECT_DIR$/mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-sucurity/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-sucurity/sucurity/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/security/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/webauth/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/webproper/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/webconfig/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
