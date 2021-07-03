@@ -20,6 +20,7 @@
         <module name="cpucode_data_jpa" />
         <module name="security" />
         <module name="cpucode_spring_ioc" />
+        <module name="webrole" />
         <module name="cpucode_springcloud" />
         <module name="cpucode_spring_jdbc" />
         <module name="webconfig" />
@@ -70,6 +71,7 @@
       <module name="webauth" options="-parameters" />
       <module name="webconfig" options="-parameters" />
       <module name="webproper" options="-parameters" />
+      <module name="webrole" options="-parameters" />
     </option>
   </component>
 </project>

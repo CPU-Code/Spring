@@ -11,6 +11,10 @@
     <modules>
         <module>security</module>
         <module>webauth</module>
+        <module>webanyauth</module>
+        <module>webconfig</module>
+        <module>webproper</module>
+        <module>webrole</module>
     </modules>
 
 </project>
