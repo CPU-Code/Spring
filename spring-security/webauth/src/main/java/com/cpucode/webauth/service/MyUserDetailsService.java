@@ -29,10 +29,10 @@ public class MyUserDetailsService implements UserDetailsService {
     private UsersMapper usersMapper;
 
     @Override
-    public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         QueryWrapper<Users> wrapper = new QueryWrapper<Users>();
 
-        wrapper.eq("username" , s);
+        wrapper.eq("username" , username);
         Users users = usersMapper.selectOne(wrapper);
 
         if (users == null){
