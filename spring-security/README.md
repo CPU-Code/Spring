@@ -7,6 +7,7 @@
 - [x] [配置数据库和权限](webauth/src/main/java/com/cpucode/webauth/WebauthApplication.java)
 - [x] [配置数据库和多权限](webanyauth/src/main/java/com/cpucode/webanyauth/WebanyauthApplication.java)
 - [x] [配置数据库和指定权限](webrole/src/main/java/com/cpucode/webrole/WebroleApplication.java)
+- [x] [配置数据库和指定多权限](webanyrole/src/main/java/com/cpucode/webanyrole/WebanyroleApplication.java)
 
 -----------------
 

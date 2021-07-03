@@ -12,6 +12,7 @@
         <module name="cpucode_ssm" />
         <module name="cpucode_spring_tx" />
         <module name="cpucode_spring_tx_anno" />
+        <module name="webanyrole" />
         <module name="cpucode_mybatis_anno" />
         <module name="cpucode_rabbitmq" />
         <module name="mybatis_plus" />
@@ -68,6 +69,7 @@
       <module name="springboot_rabbitmq_producer" options="-parameters" />
       <module name="user_service" options="-parameters" />
       <module name="webanyauth" options="-parameters" />
+      <module name="webanyrole" options="-parameters" />
       <module name="webauth" options="-parameters" />
       <module name="webconfig" options="-parameters" />
       <module name="webproper" options="-parameters" />
