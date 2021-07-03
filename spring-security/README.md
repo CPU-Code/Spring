@@ -5,6 +5,7 @@
 - [x] [配置文件配置密码](webproper/src/main/java/com/cpucode/webproper/WebproperApplication.java)
 - [x] [配置类配置密码](webconfig/src/main/java/com/cpucode/webconfig/WebconfigApplication.java)
 - [x] [配置数据库和权限](webauth/src/main/java/com/cpucode/webauth/WebauthApplication.java)
+- [x] [配置数据库和多权限](webanyauth/src/main/java/com/cpucode/webanyauth/WebanyauthApplication.java)
 
 -----------------
 

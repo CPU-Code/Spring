@@ -27,6 +27,7 @@
         <module name="cpucode_spring_mvc_test" />
         <module name="jpa_spec" />
         <module name="cpucode_spring_aop" />
+        <module name="webanyauth" />
         <module name="cpucode_spring_mvc_exception" />
         <module name="spring-security" />
         <module name="webproper" />
@@ -65,6 +66,7 @@
       <module name="springboot_rabbitmq_consumer" options="-parameters" />
       <module name="springboot_rabbitmq_producer" options="-parameters" />
       <module name="user_service" options="-parameters" />
+      <module name="webanyauth" options="-parameters" />
       <module name="webauth" options="-parameters" />
       <module name="webconfig" options="-parameters" />
       <module name="webproper" options="-parameters" />
