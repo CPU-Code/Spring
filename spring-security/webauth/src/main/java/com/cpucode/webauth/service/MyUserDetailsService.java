@@ -41,8 +41,9 @@ public class MyUserDetailsService implements UserDetailsService {
 
         System.out.println(users);
 
+        // 在UserDetailsService,把返回User对象设置杈限
         List<GrantedAuthority> auths =
-                AuthorityUtils.commaSeparatedStringToAuthorityList("role");
+                AuthorityUtils.commaSeparatedStringToAuthorityList("admins");
 
         return new User(users.getUsername(), new BCryptPasswordEncoder().encode(users.getPassword()), auths);
     }

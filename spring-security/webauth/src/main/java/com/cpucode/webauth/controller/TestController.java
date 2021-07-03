@@ -14,8 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/text")
 public class TestController {
-    @GetMapping("/hello")
+    @GetMapping("hello")
     public String hello() {
         return "hello security";
+    }
+
+    @GetMapping("index")
+    public String index() {
+        return "hello index";
     }
 }

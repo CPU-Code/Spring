@@ -4,9 +4,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+
+import javax.annotation.Resource;
 
 /**
  * @author : cpucode
@@ -18,6 +22,21 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
+    @Resource
+    UserDetailsService userDetailsService;
+
+    /**
+     * 实现用户身份认证
+     * @param auth
+     * @throws Exception
+     */
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
+
+        auth.userDetailsService(userDetailsService).passwordEncoder(encoder);
+    }
+
     /**
      *  注入 PasswordEncoder 类到 spring 容器中
      * @return
@@ -25,5 +44,30 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
+    }
+
+    /**
+     * 配置url的访问权限
+     * @param http
+     * @throws Exception
+     */
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+        //自定义自己编写的登录页面
+        http.formLogin()
+                //登录页面设置
+                .loginPage("/login.html")
+                //登录访问路径
+                .loginProcessingUrl("/user/login")
+                //登录成功之后，跳转路径
+                .defaultSuccessUrl("/text/index").permitAll()
+                .and().authorizeRequests()
+                // //设置哪些路径可以直接访问，不需要认证
+                .antMatchers("/", "/text/hello", "/user/login").permitAll()
+                // 当前登录用户,只有具有admins权限才可以访问这个路经
+                .antMatchers("/text/index").hasAuthority("admins")
+                .anyRequest().authenticated()
+                // 关闭scrf 防护
+                .and().csrf().disable();
     }
 }
