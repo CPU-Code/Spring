@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/spring-security/webanyauth/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/webrole/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/webanyrole/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/weberror/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

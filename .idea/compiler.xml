@@ -10,6 +10,7 @@
         <module name="dubbo_provider" />
         <module name="cpucode_mybatis_config" />
         <module name="cpucode_ssm" />
+        <module name="weberror" />
         <module name="cpucode_spring_tx" />
         <module name="cpucode_spring_tx_anno" />
         <module name="webanyrole" />
@@ -72,6 +73,7 @@
       <module name="webanyrole" options="-parameters" />
       <module name="webauth" options="-parameters" />
       <module name="webconfig" options="-parameters" />
+      <module name="weberror" options="-parameters" />
       <module name="webproper" options="-parameters" />
       <module name="webrole" options="-parameters" />
     </option>
