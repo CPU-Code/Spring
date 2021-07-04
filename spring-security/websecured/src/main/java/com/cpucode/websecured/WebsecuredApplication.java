@@ -7,7 +7,7 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 
 @SpringBootApplication
 @MapperScan("com.cpucode.websecured.mapper")
-@EnableGlobalMethodSecurity(securedEnabled = true)
+@EnableGlobalMethodSecurity(securedEnabled = true, prePostEnabled = true)
 public class WebsecuredApplication {
 
     public static void main(String[] args) {

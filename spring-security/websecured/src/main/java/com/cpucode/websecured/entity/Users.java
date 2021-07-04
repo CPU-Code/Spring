@@ -1,6 +1,8 @@
 package com.cpucode.websecured.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @author : cpucode
@@ -10,6 +12,8 @@ import lombok.Data;
  * @csdn : https://blog.csdn.net/qq_44226094
  */
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Users {
     private Integer id;
     private String username;
