@@ -19,6 +19,7 @@
     <file url="file://$PROJECT_DIR$/spring-security/webauth/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security/webconfig/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security/weberror/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security/weblogout/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security/webproper/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security/webrole/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security/websecured/src/main/java" charset="UTF-8" />

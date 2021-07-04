@@ -9,7 +9,8 @@
 - [x] [配置数据库和指定权限](webrole/src/main/java/com/cpucode/webrole/WebroleApplication.java)
 - [x] [配置数据库和指定多权限](webanyrole/src/main/java/com/cpucode/webanyrole/WebanyroleApplication.java)
 - [x] [配置数据库定义错误页面](weberror/src/main/java/com/cpucode/weberror/WeberrorApplication.java)
-- [x] [配置数据库注解权限](weberror/src/main/java/com/cpucode/weberror/WeberrorApplication.java)
+- [x] [配置数据库注解权限](websecured/src/main/java/com/cpucode/websecured/WebsecuredApplication.java)
+- [x] [配置数据库退出权限](weblogout/src/main/java/com/cpucode/weblogout/WeblogoutApplication.java)
 
 -----------------
 

@@ -38,6 +38,7 @@
         <module name="mongodb" />
         <module name="jpa_many_to_many" />
         <module name="cpucode_spring_interceptor" />
+        <module name="weblogout" />
         <module name="websecured" />
         <module name="jpa_one_to_many" />
         <module name="dubbo_consumer" />
@@ -75,6 +76,7 @@
       <module name="webauth" options="-parameters" />
       <module name="webconfig" options="-parameters" />
       <module name="weberror" options="-parameters" />
+      <module name="weblogout" options="-parameters" />
       <module name="webproper" options="-parameters" />
       <module name="webrole" options="-parameters" />
       <module name="websecured" options="-parameters" />
