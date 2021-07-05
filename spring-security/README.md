@@ -11,6 +11,7 @@
 - [x] [配置数据库定义错误页面](weberror/src/main/java/com/cpucode/weberror/WeberrorApplication.java)
 - [x] [配置数据库注解权限](websecured/src/main/java/com/cpucode/websecured/WebsecuredApplication.java)
 - [x] [配置数据库退出权限](weblogout/src/main/java/com/cpucode/weblogout/WeblogoutApplication.java)
+- [x] [数据库生成token](webcookie/src/main/java/com/cpucode/webcookie/WebcookieApplication.java)
 
 -----------------
 

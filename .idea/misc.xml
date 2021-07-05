@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/spring-security/weberror/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/websecured/pom.xml" />
         <option value="$PROJECT_DIR$/spring-security/weblogout/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-security/webcookie/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
