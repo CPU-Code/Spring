@@ -37,6 +37,7 @@
         <module name="springboot_rabbitmq_producer" />
         <module name="cpucode_spring_ioc_anno" />
         <module name="jpa_many_to_many" />
+        <module name="csrf-security" />
         <module name="cpucode_spring_interceptor" />
         <module name="weblogout" />
         <module name="websecured" />
@@ -63,6 +64,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer_demo" options="-parameters" />
       <module name="cpucode_rabbitmq" options="-parameters" />
+      <module name="csrf-security" options="-parameters" />
       <module name="eureka_server" options="-parameters" />
       <module name="http_demo" options="-parameters" />
       <module name="mongodb" options="-parameters" />

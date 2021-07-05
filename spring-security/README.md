@@ -12,6 +12,7 @@
 - [x] [配置数据库注解权限](websecured/src/main/java/com/cpucode/websecured/WebsecuredApplication.java)
 - [x] [配置数据库退出权限](weblogout/src/main/java/com/cpucode/weblogout/WeblogoutApplication.java)
 - [x] [数据库生成token](webcookie/src/main/java/com/cpucode/webcookie/WebcookieApplication.java)
+- [x] [跨域请求](csrf-security/src/main/java/com/cpucode/csrfsecurity/CsrfSecurityApplication.java)
 
 -----------------
 
